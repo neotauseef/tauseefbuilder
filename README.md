@@ -1,6 +1,6 @@
-# ACC & Associates
+# CDMCORP
 
-Marketing site for a construction consulting firm. Server-rendered, no framework beyond Express + Nunjucks, vanilla CSS/JS. All copy lives in `content/*.json`.
+Marketing site for CDMCORP Pty Ltd — Construction & Project Management Consultants, NSW. Server-rendered, no framework beyond Express + Nunjucks, vanilla CSS/JS. All copy lives in `content/*.json`.
 
 ## Run
 

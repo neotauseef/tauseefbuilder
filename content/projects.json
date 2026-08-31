@@ -1,109 +1,67 @@
 {
   "meta": {
-    "title": "Projects — ACC & Associates",
-    "description": "Selected case studies: apartments, health precinct, industrial estate, boarding school, retail dilapidation, public infrastructure superintendent."
+    "title": "Projects — CDMCORP Construction & Project Management Consultants",
+    "description": "The shape of the engagements we take on. Illustrative examples — specific project references available under NDA on request."
   },
   "intro": {
-    "eyebrow": "02 / PROJECTS",
-    "headline": "What we've been called in to fix.",
-    "lede": "Client names and unit numbers changed where confidentiality applies. Numbers and dates are not."
+    "eyebrow": "02 / ENGAGEMENTS",
+    "headline": "The shape of the work.",
+    "lede": "Illustrative examples of the kinds of engagements CDMCORP takes on. Specific project references, with clients and outcomes, are available under NDA on request."
   },
   "items": [
     {
-      "code": "CASE 04.22",
-      "sector": "Residential — 156 apartments",
-      "location": "Alexandria, NSW",
-      "engagement": "Programme & Delay Analysis",
-      "duration": "9 weeks",
-      "problem": "Head contractor served a 71-day extension of time claim on a $54m apartment build, citing wet-weather and utility connection delays. The developer suspected concurrent delay had not been accounted for in the contractor's windows.",
-      "intervention": "As-planned vs as-built analysis over four windows spanning October 2021 to April 2022. Reconstructed the critical path from daily site diaries and P6 update files, cross-referenced against BoM weather records for the Sydney basin.",
-      "outcome": {
-        "primary": { "value": "24", "unit": "days", "label": "EOT reduced from 71 days" },
-        "secondary": [
-          { "value": "$2.4m",  "label": "Prolongation costs disallowed" },
-          { "value": "6 wks",  "label": "Matter closed without adjudication" }
-        ]
-      }
+      "code": "TYPE 01",
+      "sector": "Residential apartments — mid-rise",
+      "location": "NSW",
+      "engagement": "Client-side Project Management",
+      "problem": "A developer needs a project manager to run a mid-rise apartment build on their behalf from tender award through practical completion — sitting on the owner's side of the table.",
+      "intervention": "End-to-end PM engagement: consultant coordination, principal reporting, cost and programme tracking, monthly board packs, and contract administration under AS 4902.",
+      "outcome_label": "Owner-representative role from award to handover."
     },
     {
-      "code": "CASE 07.23",
-      "sector": "Health — 3,400 m² day-surgery precinct",
-      "location": "Parramatta, NSW",
+      "code": "TYPE 02",
+      "sector": "Health — day-surgery precinct",
+      "location": "NSW",
       "engagement": "Contract Administration",
-      "duration": "5 months to PC",
-      "problem": "Mechanical, electrical, and hydraulic subcontracts were disputed five months before target Practical Completion. RFI backlog stood at 340+ items and the previous contract administrator had resigned.",
-      "intervention": "Took over contract administration under AS 4902. Cleared the RFI register in six weeks, re-based the variation register, and negotiated separately with each of the three services subcontractors.",
-      "outcome": {
-        "primary": { "value": "6", "unit": "weeks", "label": "PC delay, down from 14 projected" },
-        "secondary": [
-          { "value": "$1.1m",  "label": "Variations settled below claim" },
-          { "value": "342",    "label": "RFIs cleared" }
-        ]
-      }
+      "problem": "A principal takes on a health-sector build under AS 4000 and needs contract administration support — RFIs, variations, and EOT assessments — during the critical delivery phase.",
+      "intervention": "Contract administration during construction: RFI register, variation register, monthly progress claims and certifications, EOT windows analysis where claims are served.",
+      "outcome_label": "Contract paperwork run to close-out."
     },
     {
-      "code": "CASE 11.21",
-      "sector": "Industrial — 3-tenancy warehouse estate",
-      "location": "Truganina, VIC",
-      "engagement": "Defect & Dilapidation Reporting",
-      "duration": "3 weeks",
-      "problem": "Slab movement of up to 38 mm was discovered across three completed tenancies four months after handover. The tenants were withholding rent; the owner was mid-way through refinancing.",
-      "intervention": "Full defect inspection, geotechnical review, and liaison with the original engineer. Prepared a rectification scope suitable for tender and for negotiation with the head contractor under the DLP.",
-      "outcome": {
-        "primary": { "value": "$3.8m", "unit": "", "label": "Rectification scope agreed with builder" },
-        "secondary": [
-          { "value": "0",       "label": "Litigation filed" },
-          { "value": "11 wks",  "label": "Tenants back to full rent" }
-        ]
-      }
+      "code": "TYPE 03",
+      "sector": "Education — school masterplan",
+      "location": "NSW",
+      "engagement": "Feasibility Study",
+      "problem": "A school board is weighing a stage-two build and needs an independent read on cost, programme, and risk before authorising tender.",
+      "intervention": "Feasibility study to elemental cost-plan level. Benchmarked against comparable completed projects; risk register issued alongside the cost plan.",
+      "outcome_label": "Board-ready feasibility with cost plan and risk register."
     },
     {
-      "code": "CASE 02.24",
-      "sector": "Education — boarding school masterplan stage 2",
-      "location": "Southern Highlands, NSW",
-      "engagement": "Feasibility & Cost Planning",
-      "duration": "4 weeks",
-      "problem": "The client was considering commencement of a $47m stage-two build against a cost plan prepared eighteen months earlier by the design architect. The board wanted an independent read before authorising the tender.",
-      "intervention": "First-principles cost plan against the current schematic set. Bill of quantities to elemental level, benchmarked against three comparable completed projects.",
-      "outcome": {
-        "primary": { "value": "11", "unit": "%",  "label": "Over the client's budget target" },
-        "secondary": [
-          { "value": "$5.2m", "label": "Scope re-cut before tender" },
-          { "value": "DA",    "label": "Project proceeded to lodgement" }
-        ]
-      }
-    },
-    {
-      "code": "CASE 09.22",
-      "sector": "Retail — 480 m² ground-floor tenancy",
-      "location": "Fortitude Valley, QLD",
-      "engagement": "Expert Witness Support",
-      "duration": "14 months",
-      "problem": "Landlord was pursuing an outgoing tenant for $890k in make-good obligations under a schedule of condition prepared fifteen years earlier. Matter was filed in the NSW Supreme Court.",
-      "intervention": "Expert report on the tenant's side. Reconstructed the baseline condition from the original schedule, current photography, and building code changes over the tenancy term. Attended expert conclave; gave two days of testimony.",
-      "outcome": {
-        "primary": { "value": "$214k", "unit": "", "label": "Settled at, from $890k claimed" },
-        "secondary": [
-          { "value": "76%",   "label": "Reduction on the landlord's claim" },
-          { "value": "Day 4", "label": "Settled on the courthouse steps" }
-        ]
-      }
-    },
-    {
-      "code": "CASE 06.24",
-      "sector": "Public infrastructure — bridge widening, arterial road",
-      "location": "Western Sydney, NSW",
+      "code": "TYPE 04",
+      "sector": "Industrial — logistics estate",
+      "location": "NSW",
       "engagement": "Superintendent Services",
-      "duration": "6 months",
-      "problem": "Mid-project resignation of the appointed superintendent on an AS 4000 contract with two subcontractor disputes already live. The principal had 22 weeks left on programme.",
-      "intervention": "Took over as named superintendent. Ran monthly certifications, issued three formal determinations, and mediated both subcontractor disputes to written settlement.",
-      "outcome": {
-        "primary": { "value": "On", "unit": "programme", "label": "Handed over on the contract completion date" },
-        "secondary": [
-          { "value": "2",  "label": "Sub-contractor disputes settled without SOP adjudication" },
-          { "value": "0",  "label": "Determinations subsequently challenged" }
-        ]
-      }
+      "problem": "An owner requires a named superintendent under AS 4000 for a multi-tenancy industrial build, with independent certification and dispute-ready determinations.",
+      "intervention": "Superintendent role for the life of the contract: monthly certificates, formal determinations on EOT and variations, direction to correct where required.",
+      "outcome_label": "Independent superintendent through construction and DLP."
+    },
+    {
+      "code": "TYPE 05",
+      "sector": "Public infrastructure — precinct works",
+      "location": "NSW",
+      "engagement": "Tender & Procurement",
+      "problem": "A principal is moving from documentation to construction on a precinct-scale infrastructure project and wants the tender run to a standard that can be defended if the award is questioned.",
+      "intervention": "Tender package assembly, tenderer prequalification, scored evaluation against a written matrix, and a recommendation memo to the principal.",
+      "outcome_label": "Documented, defensible contractor selection."
+    },
+    {
+      "code": "TYPE 06",
+      "sector": "Retail / hospitality — fit-out",
+      "location": "NSW",
+      "engagement": "Risk & Quality Management",
+      "problem": "An owner wants an independent set of eyes on quality and risk during a retail fit-out — separate from the builder's own QA — with monthly audits and a live risk register.",
+      "intervention": "Project risk register established and maintained live; ITP audits on defined milestones; non-conformance tracking with recommended actions.",
+      "outcome_label": "Live risk register and independent quality audits through construction."
     }
   ]
 }

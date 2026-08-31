@@ -1,60 +1,38 @@
 {
   "meta": {
-    "title": "About — ACC & Associates",
-    "description": "Why the firm exists, the four people who run it, and the professional bodies that hold us to account."
+    "title": "About — CDMCORP Construction & Project Management Consultants",
+    "description": "CDMCORP is a NSW-based construction and project management consultancy. Managing Director: Antonio Hernandez."
   },
   "intro": {
     "eyebrow": "03 / ABOUT",
-    "headline": "Most claims are half legitimate and half hopeful. The work is telling one from the other."
+    "headline": "Independent representation for the party paying the fee."
   },
   "why": {
-    "heading": "Why the firm exists",
+    "heading": "How we work",
     "body": [
-      "Adrian Cassar started ACC in 2011 after fifteen years inside two of Australia's largest builders. He had watched too many developer clients accept variation and EOT claims they should not have accepted, and too many builders threatened with claims that were not fair to them either.",
-      "The firm exists to sit in the middle of that. We do not act as builders. We do not act as designers. We advise the party paying the fee, but we advise on what the contract, the programme, and the physical work actually say — not what suits the argument in front of us today.",
-      "That is why our expert reports are still adopted by both sides in a matter often enough to be worth mentioning."
+      "CDMCORP is a NSW-based construction and project management consultancy. We work on the owner's side of the table — for developers, principals, and property owners — never for the builder in the same matter.",
+      "Every engagement is scoped in writing before we start, with named deliverables, a fee, and a date. Where the shape of the job allows it, the fee is fixed.",
+      "For superintendent engagements our duty is to the contract, not the retaining party — and we hold that line in writing."
     ]
   },
   "people": [
     {
-      "initials": "AC",
-      "name": "Adrian Cassar",
-      "role": "Founding Principal",
-      "years": 22,
-      "bio": "Started as a Quantity Surveyor at a tier-1 Sydney head contractor in 2003. Head of Commercial for a listed developer 2008–2011. Fellow of the Australian Institute of Quantity Surveyors (FAIQS). MRICS. Registered Building Practitioner NSW.",
-      "creds": ["FAIQS", "MRICS", "RBP-NSW"]
-    },
-    {
-      "initials": "PM",
-      "name": "Priya Menon",
-      "role": "Director — Programme",
-      "years": 15,
-      "bio": "Fifteen years of delay analysis, including four years in-house at a Melbourne infrastructure alliance. Trained AACEI RP-29R-03 practitioner. Primavera P6 to expert level. Has given evidence in the Victorian Supreme Court and the Federal Court.",
-      "creds": ["AACEI RP-29R-03", "P6 Expert"]
-    },
-    {
-      "initials": "JC",
-      "name": "James Corrigan",
-      "role": "Director — Contracts",
-      "years": 18,
-      "bio": "Contract administration under AS 4000, AS 4902, AS 2124, GC21, and NEC3/4 in Australia and New Zealand. Non-practising solicitor (Law Society of NSW). Regular lecturer on security-of-payment and the Building and Construction Industry Security of Payment Act.",
-      "creds": ["Solicitor (non-practising)", "SoP AU/NZ"]
-    },
-    {
-      "initials": "WZ",
-      "name": "Wei Zhang",
-      "role": "Senior Consultant — Superintendent",
-      "years": 14,
-      "bio": "Site experience with two tier-1 and one tier-2 head contractor across NSW and QLD. Chartered Professional Engineer (CPEng). Registered Superintendent under AS 4000 for eleven concurrent projects since 2019.",
-      "creds": ["CPEng", "Engineers Australia"]
+      "initials": "AH",
+      "name": "Antonio Hernandez",
+      "role": "Managing Director",
+      "bio": "Antonio leads CDMCORP's engagements across project management, contract administration, and superintendent services. Direct line to every project the firm takes on.",
+      "contacts": [
+        { "label": "Mobile", "value": "0415 506 867", "href": "tel:+61415506867" },
+        { "label": "Office", "value": "(02) 7921 5670", "href": "tel:+61279215670" }
+      ]
     }
   ],
-  "governance": {
-    "heading": "Independence and governance",
-    "body": [
-      "ACC & Associates carries $20m professional indemnity through Berkley Insurance Australia, renewed annually.",
-      "We refuse instructions where a conflict exists — including where we have advised the counterparty within the previous three years — and disclose all prior engagements at the brief stage.",
-      "For expert witness work we act on the instructions of the solicitors on the record, and our duty is to the court, not the retaining party. This is stated in every engagement letter."
+  "credentials": {
+    "heading": "Credentials",
+    "items": [
+      { "label": "ABN",         "value": "15 068 411 0" },
+      { "label": "License No.", "value": "248808C" },
+      { "label": "Service area","value": "New South Wales" }
     ]
   }
 }

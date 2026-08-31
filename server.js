@@ -157,7 +157,7 @@ app.get("/contact/thanks", (req, res) => {
   res.render("thanks.njk", {
     page_id: "thanks",
     meta: {
-      title: "Enquiry received — ACC & Associates",
+      title: "Enquiry received — CDMCORP",
       description: "Your enquiry has been received. We will be in touch within one business day.",
     },
     ref,
@@ -168,10 +168,10 @@ app.get("/contact/thanks", (req, res) => {
 app.use((req, res) => {
   res.status(404).render("404.njk", {
     page_id: "notfound",
-    meta: { title: "Not found — ACC & Associates", description: "The page you were looking for cannot be found." },
+    meta: { title: "Not found — CDMCORP", description: "The page you were looking for cannot be found." },
   });
 });
 
 app.listen(port, () => {
-  console.log(`ACC & Associates → http://localhost:${port}`);
+  console.log(`CDMCORP → http://localhost:${port}`);
 });

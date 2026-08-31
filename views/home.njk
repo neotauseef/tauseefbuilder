@@ -32,7 +32,6 @@
         <a class="svc-row__inner" href="/services#s{{ loop.index }}">
           <span class="svc-row__mark">{{ s.mark }}</span>
           <span class="svc-row__name">{{ s.name }}</span>
-          <span class="svc-row__meta">{{ s.fee }} &middot; {{ s.duration }}</span>
           <span class="svc-row__trigger">{{ s.trigger }}</span>
         </a>
       </li>
@@ -41,26 +40,23 @@
   <a class="section__more" href="/services">All six services in detail →</a>
 </section>
 
-<section class="section section--proof">
-  <div class="section__mark">02 / PROOF</div>
-  <div class="stats">
-    {% for st in home.proof.stats %}
-      <div class="stat">
-        <div class="stat__value">
-          {% if st.unit == 'AUD m' %}<span class="stat__unit-pre">AUD</span>{% endif %}<span class="stat__num">{{ st.value }}</span>{% if st.unit and st.unit != 'AUD m' %}<span class="stat__unit">{{ st.unit }}</span>{% elif st.unit == 'AUD m' %}<span class="stat__unit">m</span>{% endif %}
-        </div>
-        <div class="stat__label">{{ st.label }}</div>
-        <div class="stat__range">{{ st.range }}</div>
-      </div>
-    {% endfor %}
-  </div>
+<section class="section section--capability">
+  <div class="section__mark">02 / CAPABILITY</div>
+  <h2 class="section__h">{{ home.capability.heading }}</h2>
   <div class="sectors">
     <div class="sectors__label">SECTORS</div>
     <div class="sectors__list">
-      {% for s in home.proof.sectors %}<span class="sectors__item">{{ s }}</span>{% endfor %}
+      {% for s in home.capability.sectors %}<span class="sectors__item">{{ s }}</span>{% endfor %}
     </div>
   </div>
-  <a class="section__more" href="/projects">Six case studies with the numbers →</a>
+  <ul class="pos-list">
+    {% for p in home.capability.positioning %}
+      <li class="pos-item">
+        <span class="pos-item__mark">§</span>
+        <span class="pos-item__text">{{ p }}</span>
+      </li>
+    {% endfor %}
+  </ul>
 </section>
 
 <section class="section section--engage">

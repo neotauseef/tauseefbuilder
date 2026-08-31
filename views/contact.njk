@@ -79,17 +79,25 @@
   <aside class="direct">
     <div class="direct__mark">§ DIRECT</div>
     <div class="direct__block">
-      <div class="direct__h">Email</div>
-      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      <div class="direct__h">{{ site.principal.name }}</div>
+      <div>{{ site.principal.role }}</div>
     </div>
-    {% for o in site.offices %}
-      <div class="direct__block">
-        <div class="direct__h">{{ o.city }}</div>
-        <div>{{ o.line1 }}</div>
-        <div>{{ o.line2 }}</div>
-        <a href="tel:{{ o.phone | replace(' ', '') }}">{{ o.phone }}</a>
-      </div>
-    {% endfor %}
+    <div class="direct__block">
+      <div class="direct__h">Mobile</div>
+      <a href="{{ site.principal.mobile_href }}">{{ site.principal.mobile }}</a>
+    </div>
+    <div class="direct__block">
+      <div class="direct__h">Office</div>
+      <a href="{{ site.principal.office_href }}">{{ site.principal.office }}</a>
+    </div>
+    <div class="direct__block">
+      <div class="direct__h">Firm</div>
+      <div>{{ site.firm.long_name }}</div>
+      <div>{{ site.firm.descriptor }}</div>
+      <div>{{ site.firm.tagline }}</div>
+      <div>ABN {{ site.firm.abn }}</div>
+      <div>License No. {{ site.firm.license }}</div>
+    </div>
   </aside>
 </section>
 

@@ -1,73 +1,61 @@
 {
   "meta": {
-    "title": "Services — ACC & Associates",
-    "description": "Six independent construction consulting services: feasibility & cost planning, programme & delay analysis, contract administration, superintendent, defect & dilapidation, expert witness."
+    "title": "Services — CDMCORP Construction & Project Management Consultants",
+    "description": "Six services: project management, contract administration, superintendent services, feasibility studies, tender & procurement, risk & quality management. NSW wide."
   },
   "intro": {
     "eyebrow": "01 / SERVICES",
-    "headline": "Six services. All independent.",
-    "lede": "We take on work under a written scope with a fixed fee where the shape of the job allows it. If we are not the right firm — because the matter is too small, out of jurisdiction, or a conflict exists — we say so on the brief call."
+    "headline": "Six services. Client-side.",
+    "lede": "CDMCORP acts for the owner, developer, or principal — never for the builder. Every engagement is scoped in writing before we start."
   },
   "items": [
     {
       "mark": "§ 1",
-      "name": "Feasibility & Cost Planning",
-      "trigger": "Before you commit capital.",
-      "fee": "$8k–$40k",
-      "duration": "2–6 weeks",
-      "what": "A first-principles cost plan built from schematic or DA-stage drawings, with quantities we can defend against a QS at any tier-1 builder. Presented against your budget line-item by line-item, not as a headline number.",
-      "when": "You are about to seek finance, land at auction, or trigger a stage-two commitment, and the number on the page is not one you can hand to a bank yet.",
-      "deliverable": "Written cost plan (BOQ + narrative), risk register, one revision, presentation to your board or lender."
+      "name": "Project Management",
+      "trigger": "End-to-end, on the owner's side of the table.",
+      "what": "Client-side project management from initial planning through to handover. Programme oversight, cost tracking, consultant coordination, principal reporting, and stakeholder management across the full project lifecycle.",
+      "when": "You need a single project manager accountable to you — not the builder — running the project as an extension of your own team.",
+      "deliverable": "Weekly progress reporting, monthly cost and programme dashboards, risk register maintained live, and a complete document register at handover."
     },
     {
       "mark": "§ 2",
-      "name": "Programme & Delay Analysis",
-      "trigger": "When the programme starts to slip.",
-      "fee": "$12k–$80k",
-      "duration": "3–10 weeks",
-      "what": "As-planned vs as-built windows analysis, time impact analysis, or collapsed as-built — whichever the contract and the pleadings call for. AACEI RP-29R-03 methodology, referenced to the actual project documents.",
-      "when": "A contractor has served an EOT claim, a subcontractor is threatening one, or the programme has drifted and you cannot yet see where or why.",
-      "deliverable": "Delay analysis report suitable for negotiation, expert conference, or filing. Native P6 or MS Project files provided."
-    },
-    {
-      "mark": "§ 3",
       "name": "Contract Administration",
       "trigger": "Once the contract is signed.",
-      "fee": "Retainer or hourly",
-      "duration": "Project life",
-      "what": "Full contract administration under AS 4000, AS 4902, AS 2124, GC21, or bespoke forms — RFIs, variations, EOT assessments, progress claims, notices, and correspondence. Impartial where the contract requires it.",
-      "when": "You are the principal or superintendent representative and need the paperwork run by a firm that has been through the same disputes on the other side of the table.",
+      "what": "Full contract administration under AS 4000, AS 4902, AS 2124, GC21, or bespoke forms — RFIs, variations, extension-of-time assessments, progress claims, notices, and correspondence. Impartial where the contract requires it.",
+      "when": "You are the principal or superintendent representative and need the paperwork run by a firm that knows both sides of the same disputes.",
       "deliverable": "Ongoing engagement with monthly reporting; complete document register handed over at practical completion."
     },
     {
-      "mark": "§ 4",
+      "mark": "§ 3",
       "name": "Superintendent Services",
-      "trigger": "On-site authority.",
-      "fee": "Retainer",
-      "duration": "Project life",
-      "what": "Named superintendent under AS 4000 / AS 4902 / AS 2124. Site visits, certifications, EOT determinations, direction to correct, PC certification. Held to the same standard of independence a court would expect.",
+      "trigger": "Named superintendent under AS 4000 / AS 4902.",
+      "what": "Independent superintendent role: site visits, certifications, extension-of-time determinations, direction to correct, practical completion certification, and DLP administration. Held to the same standard of independence a court would expect.",
       "when": "You need a superintendent who will hold the middle ground when it costs one party money, and who is prepared to defend a determination in writing.",
-      "deliverable": "Site inspection reports, monthly certificates, determinations, PC and DLP certificates."
+      "deliverable": "Site inspection reports, monthly certificates, formal determinations, PC and DLP certificates."
+    },
+    {
+      "mark": "§ 4",
+      "name": "Feasibility Studies",
+      "trigger": "Before you commit capital.",
+      "what": "Pre-commitment feasibility: site constraints, cost planning to elemental level, indicative programme, and a risk register you can hand to a board or a bank. Benchmarked against comparable completed projects.",
+      "when": "You are about to seek finance, land at auction, or trigger a stage-two commitment, and the numbers in front of you have not yet been independently tested.",
+      "deliverable": "Written feasibility report, cost plan, risk register, one revision, and presentation to your board or lender."
     },
     {
       "mark": "§ 5",
-      "name": "Defect & Dilapidation Reporting",
-      "trigger": "Independent inspection.",
-      "fee": "$4k–$25k",
-      "duration": "1–4 weeks",
-      "what": "Pre-construction dilapidation surveys of adjoining property; defect inspection at PC or during DLP; make-good assessment at lease end. Photographed, geolocated, cross-referenced to drawings.",
-      "when": "You are about to start work near a neighbour who will make a claim, taking handover of a building you do not yet trust, or ending a lease under a schedule of condition.",
-      "deliverable": "Illustrated report with defect schedule, rectification scope, and indicative costs where instructed."
+      "name": "Tender & Procurement",
+      "trigger": "Get the right builder onto the right contract.",
+      "what": "Tender documentation, RFP management, tenderer prequalification, tender evaluation to a scoring matrix, and contract-award recommendation. Contract form and special conditions drafted or reviewed.",
+      "when": "You are moving from documentation to construction and want the tender run cleanly enough to defend the award later if it is questioned.",
+      "deliverable": "Tender package, tenderer register, evaluation report with scoring, and a recommendation memo to the principal."
     },
     {
       "mark": "§ 6",
-      "name": "Expert Witness Support",
-      "trigger": "When it is heading to arbitration.",
-      "fee": "$18k–$150k",
-      "duration": "Matter-dependent",
-      "what": "Independent expert reports and testimony on quantum, delay, defect, or contractual interpretation. Compliant with the Federal Court and NSW/VIC/QLD Supreme Court expert witness codes.",
-      "when": "Proceedings have been filed, or your legal team wants an expert engaged early to shape the pleadings.",
-      "deliverable": "Expert report, joint report with the opposing expert, conclave attendance, and cross-examination as required."
+      "name": "Risk & Quality Management",
+      "trigger": "Before problems reach the site.",
+      "what": "Project risk register development and maintenance, quality plan review, ITP (inspection & test plan) audits during construction, non-conformance tracking, and defect-prevention advice. Site quality audits on request.",
+      "when": "You want an independent set of eyes on quality and risk — separate from the builder's own QA — either continuously or at defined milestones.",
+      "deliverable": "Risk register, quality audit reports, ITP register review, and non-conformance summaries with recommended actions."
     }
   ]
 }

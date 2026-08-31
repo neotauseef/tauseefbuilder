@@ -1,43 +1,38 @@
 {
   "meta": {
-    "title": "ACC & Associates — Construction consulting for projects that have started to drift",
-    "description": "Independent construction consulting: feasibility, programme and delay analysis, contract administration, superintendent services, defect reporting, expert witness. Sydney, Melbourne, Brisbane."
+    "title": "CDMCORP — Construction & Project Management Consultants, NSW",
+    "description": "Client-side construction and project management consultancy across NSW. Project management, contract administration, superintendent services, feasibility, tender & procurement, risk & quality."
   },
   "hero": {
-    "eyebrow": "RL +00.000 · REFERENCE DATUM",
+    "eyebrow": "CDMCORP · NSW",
     "headline": [
-      "When a project starts",
-      "to drift, we're the",
-      "reference point it",
-      "comes back to."
+      "Client-side",
+      "project management.",
+      "Feasibility",
+      "through handover."
     ],
-    "lede": "ACC & Associates is the firm developers and principal contractors call when a project is over budget, behind programme, or heading for a dispute. Independent. Australian. Since 2011.",
+    "lede": "CDMCORP is a Sydney-based construction and project management consultancy. Independent representation for developers, owners, and principals across New South Wales.",
     "cta": { "label": "Start an enquiry", "href": "/contact" },
     "programme": {
-      "code": "CASE 04.22 · APARTMENTS · ALEXANDRIA NSW",
+      "code": "SAMPLE · PROGRAMME RECOVERY · ILLUSTRATIVE",
       "phases": [
         { "id": "strategy",  "label": "STRATEGY",  "start": 0,  "planned_end": 12, "actual_end": 12 },
         { "id": "planning",  "label": "PLANNING",  "start": 12, "planned_end": 34, "actual_end": 36 },
         { "id": "delivery",  "label": "DELIVERY",  "start": 36, "planned_end": 88, "actual_end": 100, "eot_days": 47 }
       ],
-      "engagement": { "at": 72, "label": "ACC engaged" },
+      "engagement": { "at": 72, "label": "CDMCORP engaged" },
       "ticks": [
-        { "at": 0,   "label": "Jan '21" },
-        { "at": 25,  "label": "Jul '21" },
-        { "at": 50,  "label": "Jan '22" },
-        { "at": 75,  "label": "Jul '22" },
-        { "at": 100, "label": "Feb '23" }
+        { "at": 0,   "label": "Mo. 1" },
+        { "at": 25,  "label": "Mo. 6" },
+        { "at": 50,  "label": "Mo. 12" },
+        { "at": 75,  "label": "Mo. 18" },
+        { "at": 100, "label": "Mo. 24" }
       ]
     }
   },
-  "services_intro": "Six services. All independent, all fixed-fee where the scope allows.",
-  "proof": {
-    "stats": [
-      { "value": "184",    "unit": "",     "label": "Projects audited",   "range": "2011–2025" },
-      { "value": "412",    "unit": "AUD m","label": "Contract value recovered or defended", "range": "2011–2025" },
-      { "value": "67",     "unit": "",     "label": "Expert reports issued", "range": "2015–2025" },
-      { "value": "94",     "unit": "%",    "label": "Matters resolved without adjudication", "range": "2018–2025" }
-    ],
+  "services_intro": "Six services. All client-side.",
+  "capability": {
+    "heading": "Sectors we work across",
     "sectors": [
       "Residential apartments",
       "Health",
@@ -45,15 +40,20 @@
       "Industrial",
       "Public infrastructure",
       "Retail"
+    ],
+    "positioning": [
+      "Independent — we act for the owner, not the builder.",
+      "NSW-based — Sydney office, projects across the state.",
+      "Fixed-scope engagements wherever the shape of the work allows."
     ]
   },
   "engage": {
     "eyebrow": "How we engage",
     "steps": [
-      { "n": "01", "title": "Brief",                "detail": "30-minute call, no charge. Tell us the project, the contract, and what has moved." },
-      { "n": "02", "title": "Scope and fixed fee",  "detail": "A one-page scope with named deliverables, a fee, and a date. Signed both ways." },
-      { "n": "03", "title": "Site and documents",   "detail": "Site walk where relevant. Full documents review — programme, contract, RFIs, variations, correspondence." },
-      { "n": "04", "title": "Report or engagement", "detail": "A written report you can hand to a bank, a builder, or a court. Or an ongoing contract-admin or superintendent role." }
+      { "n": "01", "title": "Brief",              "detail": "A short call, no charge. Tell us the project, the contract, and what you need." },
+      { "n": "02", "title": "Scope and fee",      "detail": "A one-page scope with named deliverables, a fee, and a date. Signed both ways." },
+      { "n": "03", "title": "Site and documents", "detail": "Site walk where relevant. Documents review — programme, contract, RFIs, variations, correspondence." },
+      { "n": "04", "title": "Report or engagement", "detail": "A written report you can hand to a bank, a builder, or your board. Or an ongoing contract-admin, superintendent, or PM role." }
     ]
   }
 }

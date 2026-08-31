@@ -1,10 +1,11 @@
 {
   "firm": {
-    "name": "ACC & Associates",
-    "long_name": "ACC & Associates Construction Consulting",
-    "tagline": "Strategy · Planning · Delivery",
-    "abn": "48 214 771 903",
-    "founded": 2011
+    "name": "CDMCORP",
+    "long_name": "CDMCORP Pty Ltd",
+    "descriptor": "Construction & Project Management Consultants",
+    "tagline": "NSW Wide Services",
+    "abn": "15 068 411 0",
+    "license": "248808C"
   },
   "nav": [
     { "label": "Services", "href": "/services", "mark": "01" },
@@ -12,10 +13,12 @@
     { "label": "About",    "href": "/about",    "mark": "03" },
     { "label": "Contact",  "href": "/contact",  "mark": "04" }
   ],
-  "offices": [
-    { "city": "Sydney",    "line1": "Level 12, 60 Margaret Street", "line2": "Sydney NSW 2000",     "phone": "+61 2 8000 0142" },
-    { "city": "Melbourne", "line1": "Level 3, 200 Queen Street",    "line2": "Melbourne VIC 3000",  "phone": "+61 3 9000 0142" },
-    { "city": "Brisbane",  "line1": "Level 8, 100 Edward Street",   "line2": "Brisbane QLD 4000",   "phone": "+61 7 3000 0142" }
-  ],
-  "email": "advisory@accassociates.com.au"
+  "principal": {
+    "name": "Antonio Hernandez",
+    "role": "Managing Director",
+    "mobile":       "0415 506 867",
+    "mobile_href":  "tel:+61415506867",
+    "office":       "(02) 7921 5670",
+    "office_href":  "tel:+61279215670"
+  }
 }
