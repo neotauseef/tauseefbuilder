@@ -10,13 +10,13 @@
   },
   "form": {
     "project_types": [
-      "Residential (apartments / mixed-use)",
-      "Residential (SDA, aged care)",
+      "Residential",
+      "Commercial",
       "Health",
       "Education",
-      "Industrial / logistics",
-      "Public infrastructure",
-      "Retail / hospitality",
+      "Aged care",
+      "Industrial",
+      "Government infrastructure",
       "Other"
     ],
     "stages": [

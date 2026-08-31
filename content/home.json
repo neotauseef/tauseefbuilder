@@ -4,14 +4,15 @@
     "description": "Client-side construction and project management consultancy across NSW. Project management, contract administration, superintendent services, feasibility, tender & procurement, risk & quality."
   },
   "hero": {
-    "eyebrow": "CDMCORP · NSW",
+    "eyebrow": "CDMCORP · NSW · EST. 1984",
     "headline": [
       "Client-side",
-      "project management.",
-      "Feasibility",
-      "through handover."
+      "construction",
+      "consulting.",
+      "Every sector,",
+      "every stage."
     ],
-    "lede": "CDMCORP is a Sydney-based construction and project management consultancy. Independent representation for developers, owners, and principals across New South Wales — since 1984.",
+    "lede": "Since 1984, CDMCORP has represented developers, owners, and principals on projects across New South Wales — residential, commercial, health, education, aged care, industrial, and government infrastructure. Feasibility through handover.",
     "cta": { "label": "Start an enquiry", "href": "/contact" },
     "programme": {
       "code": "SAMPLE · PROGRAMME RECOVERY · ILLUSTRATIVE",
@@ -34,12 +35,13 @@
   "capability": {
     "heading": "Sectors we work across",
     "sectors": [
-      "Residential apartments",
+      "Residential",
+      "Commercial",
       "Health",
       "Education",
+      "Aged care",
       "Industrial",
-      "Public infrastructure",
-      "Retail"
+      "Government infrastructure"
     ],
     "positioning": [
       "Independent — we act for the owner, not the builder.",
