@@ -10,7 +10,7 @@
   "why": {
     "heading": "How we work",
     "body": [
-      "CDMCORP is a NSW-based construction and project management consultancy. We work on the owner's side of the table — for developers, principals, and property owners — never for the builder in the same matter.",
+      "CDMCORP is a NSW-based construction and project management consultancy, established in 1984. We work on the owner's side of the table — for developers, principals, and property owners — never for the builder in the same matter.",
       "Every engagement is scoped in writing before we start, with named deliverables, a fee, and a date. Where the shape of the job allows it, the fee is fixed.",
       "For superintendent engagements our duty is to the contract, not the retaining party — and we hold that line in writing."
     ]
@@ -22,17 +22,19 @@
       "role": "Managing Director",
       "bio": "Antonio leads CDMCORP's engagements across project management, contract administration, and superintendent services. Direct line to every project the firm takes on.",
       "contacts": [
-        { "label": "Mobile", "value": "0415 506 867", "href": "tel:+61415506867" },
-        { "label": "Office", "value": "(02) 7921 5670", "href": "tel:+61279215670" }
+        { "label": "Mobile", "value": "0415 506 867",   "href": "tel:+61415506867" },
+        { "label": "Office", "value": "(02) 7921 5670", "href": "tel:+61279215670" },
+        { "label": "Email",  "value": "antonio@acc.com","href": "mailto:antonio@acc.com" }
       ]
     }
   ],
   "credentials": {
     "heading": "Credentials",
     "items": [
-      { "label": "ABN",         "value": "15 068 411 0" },
-      { "label": "License No.", "value": "248808C" },
-      { "label": "Service area","value": "New South Wales" }
+      { "label": "ABN",           "value": "15 068 411 0" },
+      { "label": "License No.",   "value": "248808C" },
+      { "label": "Service area",  "value": "New South Wales" },
+      { "label": "Established",   "value": "1984" }
     ]
   }
 }
