@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "CDMCORP — Construction & Project Management Consultants, NSW",
+    "title": "ACC Associates — Construction & Project Management Consultants, NSW",
     "description": "Client-side construction and project management consultancy across NSW. Project management, contract administration, superintendent services, feasibility, tender & procurement, risk & quality."
   },
   "hero": {
-    "eyebrow": "CDMCORP · NSW · EST. 1984",
+    "eyebrow": "ACC Associates · NSW · EST. 1984",
     "headline": [
       "Client-side",
       "construction",
@@ -12,7 +12,7 @@
       "Every sector,",
       "every stage."
     ],
-    "lede": "Since 1984, CDMCORP has represented developers, owners, and principals on projects across New South Wales — residential, commercial, health, education, aged care, industrial, and government infrastructure. Feasibility through handover.",
+    "lede": "Since 1984, ACC Associates has represented developers, owners, and principals on projects across New South Wales — residential, commercial, health, education, aged care, industrial, and government infrastructure. Feasibility through handover.",
     "cta": { "label": "Start an enquiry", "href": "/contact" },
     "programme": {
       "code": "SAMPLE · PROGRAMME RECOVERY · ILLUSTRATIVE",
@@ -21,7 +21,7 @@
         { "id": "planning",  "label": "PLANNING",  "start": 12, "planned_end": 34, "actual_end": 36 },
         { "id": "delivery",  "label": "DELIVERY",  "start": 36, "planned_end": 88, "actual_end": 100, "eot_days": 47 }
       ],
-      "engagement": { "at": 72, "label": "CDMCORP engaged" },
+      "engagement": { "at": 72, "label": "ACC Associates engaged" },
       "ticks": [
         { "at": 0,   "label": "Mo. 1" },
         { "at": 25,  "label": "Mo. 6" },
