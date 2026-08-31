@@ -1047,11 +1047,28 @@ body {
   justify-content: space-between;
   gap: 1rem;
   flex-wrap: wrap;
+  align-items: center;
   font-family: var(--mono);
   font-size: 0.75rem;
   color: var(--chalk-40);
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+.footer__palette {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.footer__palette .sw {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 1px solid var(--chalk-15);
+}
+.footer__palette-label {
+  margin-left: 0.5rem;
+  color: var(--chalk-65);
+  letter-spacing: 0.1em;
 }
 @media (max-width: 780px) {
   .footer__grid { grid-template-columns: 1fr; }

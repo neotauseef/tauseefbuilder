@@ -38,12 +38,17 @@ app.use(express.static(join(__dirname, "public"), {
   },
 }));
 
+// Cache-buster: changes on every server restart so an updated stylesheet
+// always defeats the browser cache without the user needing to hard-refresh.
+const ASSET_VERSION = Date.now().toString(36);
+
 // Common locals
 app.use((req, res, next) => {
   res.locals.site = content.site;
   res.locals.services = content.services;
   res.locals.year = new Date().getFullYear();
   res.locals.current_path = req.path;
+  res.locals.asset_v = ASSET_VERSION;
   next();
 });
 
