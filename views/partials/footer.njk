@@ -1,0 +1,32 @@
+<footer class="footer" role="contentinfo">
+  <div class="footer__grid">
+    <div class="footer__brand">
+      <div class="footer__logo">ACC &amp; Associates</div>
+      <div class="footer__tagline">Strategy · Planning · Delivery</div>
+      <div class="footer__meta">ABN {{ site.firm.abn }} &middot; Founded {{ site.firm.founded }}</div>
+    </div>
+    <div class="footer__col">
+      <div class="footer__col-h">Offices</div>
+      {% for o in site.offices %}
+        <div class="footer__office">
+          <div class="footer__office-city">{{ o.city }}</div>
+          <div>{{ o.line1 }}</div>
+          <div>{{ o.line2 }}</div>
+          <a href="tel:{{ o.phone | replace(' ', '') }}">{{ o.phone }}</a>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="footer__col">
+      <div class="footer__col-h">Direct</div>
+      <a class="footer__email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+      <div class="footer__col-h footer__col-h--mt">Site</div>
+      {% for item in site.nav %}
+        <a class="footer__navlink" href="{{ item.href }}">{{ item.label }}</a>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="footer__base">
+    <div>&copy; {{ year }} ACC &amp; Associates Construction Consulting. All rights reserved.</div>
+    <div>Independent. Australian. Since 2011.</div>
+  </div>
+</footer>

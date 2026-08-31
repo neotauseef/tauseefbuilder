@@ -1,0 +1,16 @@
+<header class="nav" role="banner">
+  <div class="nav__inner">
+    <a class="nav__brand" href="/" aria-label="{{ site.firm.name }} — home">
+      <span class="nav__brand-mark">ACC</span>
+      <span class="nav__brand-name">&nbsp;&amp; Associates</span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      {% for item in site.nav %}
+        <a href="{{ item.href }}" class="nav__link{% if current_path == item.href %} is-current{% endif %}">
+          <span class="nav__link-mark">{{ item.mark }}</span>
+          <span class="nav__link-label">{{ item.label }}</span>
+        </a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>

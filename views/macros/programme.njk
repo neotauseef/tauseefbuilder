@@ -1,0 +1,58 @@
+{% macro programme(p) %}
+<figure class="prog" aria-labelledby="prog-title">
+  <figcaption class="prog__cap" id="prog-title">
+    <span class="prog__cap-mark">{{ p.code }}</span>
+  </figcaption>
+
+  <div class="prog__grid" role="img" aria-label="Programme chart. Original programme, actual programme, and the point at which ACC was engaged.">
+
+    {# phase labels row #}
+    <div class="prog__phases" aria-hidden="true">
+      {% for ph in p.phases %}
+        <div class="prog__phase"
+             style="left: {{ ph.start }}%; width: {{ ph.planned_end - ph.start }}%;">
+          <span class="prog__phase-label">{{ ph.label }}</span>
+        </div>
+      {% endfor %}
+    </div>
+
+    {# original bar #}
+    <div class="prog__row prog__row--original">
+      <div class="prog__row-label">ORIGINAL</div>
+      <div class="prog__track">
+        {% set last = p.phases | last %}
+        <div class="prog__bar prog__bar--original"
+             style="left: 0%; width: {{ last.planned_end }}%;"></div>
+      </div>
+    </div>
+
+    {# actual bar with EOT wedge #}
+    <div class="prog__row prog__row--actual">
+      <div class="prog__row-label">ACTUAL</div>
+      <div class="prog__track">
+        {% set last = p.phases | last %}
+        <div class="prog__bar prog__bar--actual"
+             style="left: 0%; width: {{ last.planned_end }}%;"></div>
+        <div class="prog__bar prog__bar--eot"
+             style="left: {{ last.planned_end }}%; width: {{ last.actual_end - last.planned_end }}%;">
+          <span class="prog__eot-tag">EOT +{{ last.eot_days }}d</span>
+        </div>
+        {% if p.engagement %}
+          <div class="prog__engage" style="left: {{ p.engagement.at }}%;">
+            <span class="prog__engage-tag">{{ p.engagement.label }}</span>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+
+    {# ticks #}
+    <div class="prog__ticks" aria-hidden="true">
+      {% for t in p.ticks %}
+        <div class="prog__tick" style="left: {{ t.at }}%;">
+          <span class="prog__tick-label">{{ t.label }}</span>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</figure>
+{% endmacro %}

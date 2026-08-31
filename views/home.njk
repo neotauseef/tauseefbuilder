@@ -1,0 +1,87 @@
+{% extends "layout.njk" %}
+{% from "macros/programme.njk" import programme %}
+
+{% block content %}
+
+<section class="hero">
+  <div class="hero__grid">
+    <div class="hero__eyebrow">{{ home.hero.eyebrow }}</div>
+    <h1 class="hero__headline">
+      {% for line in home.hero.headline %}
+        <span class="hero__line">{{ line }}</span>
+      {% endfor %}
+    </h1>
+    <p class="hero__lede">{{ home.hero.lede }}</p>
+    <div class="hero__cta">
+      <a class="btn btn--primary" href="{{ home.hero.cta.href }}">
+        {{ home.hero.cta.label }} <span aria-hidden="true">→</span>
+      </a>
+    </div>
+    <div class="hero__prog">
+      {{ programme(home.hero.programme) }}
+    </div>
+  </div>
+</section>
+
+<section class="section section--services-overview">
+  <div class="section__mark">01 / SERVICES</div>
+  <h2 class="section__h">{{ home.services_intro }}</h2>
+  <ul class="svc-list">
+    {% for s in services.items %}
+      <li class="svc-row">
+        <a class="svc-row__inner" href="/services#s{{ loop.index }}">
+          <span class="svc-row__mark">{{ s.mark }}</span>
+          <span class="svc-row__name">{{ s.name }}</span>
+          <span class="svc-row__meta">{{ s.fee }} &middot; {{ s.duration }}</span>
+          <span class="svc-row__trigger">{{ s.trigger }}</span>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+  <a class="section__more" href="/services">All six services in detail →</a>
+</section>
+
+<section class="section section--proof">
+  <div class="section__mark">02 / PROOF</div>
+  <div class="stats">
+    {% for st in home.proof.stats %}
+      <div class="stat">
+        <div class="stat__value">
+          {% if st.unit == 'AUD m' %}<span class="stat__unit-pre">AUD</span>{% endif %}<span class="stat__num">{{ st.value }}</span>{% if st.unit and st.unit != 'AUD m' %}<span class="stat__unit">{{ st.unit }}</span>{% elif st.unit == 'AUD m' %}<span class="stat__unit">m</span>{% endif %}
+        </div>
+        <div class="stat__label">{{ st.label }}</div>
+        <div class="stat__range">{{ st.range }}</div>
+      </div>
+    {% endfor %}
+  </div>
+  <div class="sectors">
+    <div class="sectors__label">SECTORS</div>
+    <div class="sectors__list">
+      {% for s in home.proof.sectors %}<span class="sectors__item">{{ s }}</span>{% endfor %}
+    </div>
+  </div>
+  <a class="section__more" href="/projects">Six case studies with the numbers →</a>
+</section>
+
+<section class="section section--engage">
+  <div class="section__mark">03 / {{ home.engage.eyebrow | upper }}</div>
+  <ol class="engage">
+    {% for step in home.engage.steps %}
+      <li class="engage__step">
+        <div class="engage__n">{{ step.n }}</div>
+        <div class="engage__body">
+          <h3 class="engage__h">{{ step.title }}</h3>
+          <p class="engage__detail">{{ step.detail }}</p>
+        </div>
+      </li>
+    {% endfor %}
+  </ol>
+</section>
+
+<section class="section section--cta-final">
+  <div class="section__mark">04 / ENQUIRY</div>
+  <h2 class="cta-final__h">One brief call. No obligation. One business day to a reply.</h2>
+  <a class="btn btn--primary btn--large" href="/contact">Start an enquiry <span aria-hidden="true">→</span></a>
+</section>
+
+{% endblock %}

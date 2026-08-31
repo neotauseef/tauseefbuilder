@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en-AU">
+{% include "partials/head.njk" %}
+<body class="page page--{{ page_id | default('home') }}">
+  <a class="skip" href="#main">Skip to content</a>
+  {% include "partials/nav.njk" %}
+  <main id="main" tabindex="-1">
+    {% block content %}{% endblock %}
+  </main>
+  {% include "partials/footer.njk" %}
+  <script src="/js/main.js" defer></script>
+</body>
+</html>

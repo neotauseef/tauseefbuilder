@@ -1,0 +1,56 @@
+{% extends "layout.njk" %}
+{% block content %}
+
+<section class="page-hero">
+  <div class="page-hero__eyebrow">{{ projects.intro.eyebrow }}</div>
+  <h1 class="page-hero__h">{{ projects.intro.headline }}</h1>
+  <p class="page-hero__lede">{{ projects.intro.lede }}</p>
+</section>
+
+<section class="cases">
+  {% for c in projects.items %}
+    <article class="case">
+      <header class="case__head">
+        <div class="case__code">{{ c.code }}</div>
+        <h2 class="case__sector">{{ c.sector }}</h2>
+        <div class="case__loc">{{ c.location }}</div>
+        <div class="case__eng">{{ c.engagement }} &middot; {{ c.duration }}</div>
+      </header>
+
+      <div class="case__body">
+        <div class="case__block">
+          <h3>Problem</h3>
+          <p>{{ c.problem }}</p>
+        </div>
+        <div class="case__block">
+          <h3>Intervention</h3>
+          <p>{{ c.intervention }}</p>
+        </div>
+      </div>
+
+      <div class="case__outcome">
+        <div class="case__outcome-h">Outcome</div>
+        <div class="case__outcome-primary">
+          <span class="case__outcome-value">{{ c.outcome.primary.value }}</span>
+          {% if c.outcome.primary.unit %}<span class="case__outcome-unit">{{ c.outcome.primary.unit }}</span>{% endif %}
+          <span class="case__outcome-label">{{ c.outcome.primary.label }}</span>
+        </div>
+        <ul class="case__outcome-secondary">
+          {% for s in c.outcome.secondary %}
+            <li>
+              <span class="case__outcome-value case__outcome-value--sm">{{ s.value }}</span>
+              <span class="case__outcome-label">{{ s.label }}</span>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </article>
+  {% endfor %}
+</section>
+
+<section class="section section--cta-final">
+  <h2 class="cta-final__h">A live project that looks like one of these?</h2>
+  <a class="btn btn--primary btn--large" href="/contact">Start an enquiry <span aria-hidden="true">→</span></a>
+</section>
+
+{% endblock %}
