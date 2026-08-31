@@ -70,11 +70,12 @@ Server-side validation returns the form with error messages when a submission is
 
 Everything derives from the tokens at the top of `public/css/styles.css`:
 
-- `--ink #0E1B2C` — primary text and dark surfaces
-- `--blueprint #1F3A5F` — reserved secondary blue
-- `--corten #6A2E17` — signature accent
-- `--trace #F2F1EC` — page background
-- `--site #B8B2A6` — connective grey
+- `--ink    #101A14` — text, near-black with green undertone
+- `--field  #1B4332` — primary dark surfaces, buttons, footer
+- `--brass  #B4873A` — signature accent (key numbers, eyebrows, EOT wedge)
+- `--moss   #5C8060` — mid green — hovers, supporting elements
+- `--sage   #8A9A87` — rules, secondary text, connective grey-green
+- `--chalk  #F5F2E8` — page background, warm parchment
 
 Fonts: **Fraunces** (display serif), **Inter Tight** (body), **JetBrains Mono** (data, metadata, reference codes). All self-hosted variable woff2 files under `public/fonts/`, preloaded from `views/partials/head.njk`, `font-display: swap`.
 
@@ -83,7 +84,7 @@ Fonts: **Fraunces** (display serif), **Inter Tight** (body), **JetBrains Mono** 
 - Semantic landmarks: `header`, `nav`, `main`, `footer`, `article`, `section`, `figure`.
 - Skip link, visible focus (2px Corten outline), keyboard nav respected.
 - `prefers-reduced-motion` disables the programme-bar draw and scroll reveals.
-- Colour contrast: Ink on Trace ≥ 14:1, Corten on Trace ≥ 7:1.
+- Colour contrast: Ink on Chalk ≥ 15:1, Field on Chalk ≥ 8.5:1, Chalk on Field ≥ 8.5:1, Brass on Field ≥ 4.5:1.
 
 ## Notes
 
