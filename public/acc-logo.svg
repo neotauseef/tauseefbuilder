@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 420" role="img" aria-label="ACC & Associates — Construction Consulting Firm">
+  <defs>
+    <linearGradient id="navy" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#163862"/>
+      <stop offset="100%" stop-color="#0B2E4F"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E3B959"/>
+      <stop offset="55%" stop-color="#C69233"/>
+      <stop offset="100%" stop-color="#8E6820"/>
+    </linearGradient>
+    <linearGradient id="goldRibbon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"  stop-color="#8E6820"/>
+      <stop offset="50%" stop-color="#E3B959"/>
+      <stop offset="100%" stop-color="#8E6820"/>
+    </linearGradient>
+  </defs>
+
+  <!-- soft city silhouette backdrop -->
+  <g opacity="0.06" fill="#0B2E4F">
+    <rect x="30"  y="40"  width="30" height="140"/>
+    <rect x="70"  y="80"  width="40" height="100"/>
+    <rect x="120" y="20"  width="35" height="160"/>
+    <rect x="325" y="50"  width="45" height="130"/>
+    <rect x="380" y="90"  width="30" height="90"/>
+    <rect x="420" y="70"  width="30" height="110"/>
+    <polygon points="440,40 445,20 450,40"/>
+  </g>
+
+  <!-- The stylized ACC monogram -->
+  <g transform="translate(240 130)">
+    <!-- Big navy "A" -->
+    <path d="M -110 60 L -35 -90 L 35 -90 L 110 60 L 65 60 L 0 -55 L -65 60 Z"
+          fill="url(#navy)" stroke="#08213A" stroke-width="1.5"/>
+    <!-- Gold horizontal bar (crossbar of the A + bridging into CC) -->
+    <path d="M -70 30 L 70 30 L 90 15 L -90 15 Z"
+          fill="url(#gold)"/>
+    <!-- Gold cornice on top of the A -->
+    <path d="M -25 -80 L 25 -80 L 15 -95 L -15 -95 Z" fill="url(#gold)"/>
+    <!-- Left CC arc -->
+    <path d="M -140 -30 C -170 -30 -170 55 -140 55 L -125 55 L -125 40 L -140 40 C -155 40 -155 -15 -140 -15 L -125 -15 L -125 -30 Z"
+          fill="url(#navy)"/>
+    <!-- Right CC arc (mirrored) -->
+    <path d="M 140 -30 C 170 -30 170 55 140 55 L 125 55 L 125 40 L 140 40 C 155 40 155 -15 140 -15 L 125 -15 L 125 -30 Z"
+          fill="url(#navy)"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g text-anchor="middle" font-family="'Inter Tight', Arial, sans-serif" font-weight="900" letter-spacing="1">
+    <text x="240" y="270" font-size="46" fill="url(#navy)">ACC <tspan fill="url(#gold)">&amp;</tspan> ASSOCIATES</text>
+  </g>
+  <g text-anchor="middle" font-family="'JetBrains Mono', monospace" font-weight="700">
+    <text x="240" y="298" font-size="14" fill="#0B2E4F" letter-spacing="6">CONSTRUCTION CONSULTING FIRM</text>
+  </g>
+
+  <!-- Gold ribbon divider -->
+  <rect x="80" y="320" width="320" height="4" fill="url(#goldRibbon)"/>
+  <g text-anchor="middle" font-family="'JetBrains Mono', monospace" font-weight="700">
+    <text x="240" y="345" font-size="12" fill="#0B2E4F" letter-spacing="8">
+      STRATEGY <tspan fill="#C69233">•</tspan> PLANNING <tspan fill="#C69233">•</tspan> DELIVERY
+    </text>
+  </g>
+
+  <!-- Italic motto -->
+  <g text-anchor="middle">
+    <text x="240" y="380" font-family="'Fraunces', Georgia, serif" font-style="italic" font-weight="500" font-size="16" fill="#0B2E4F">Building Knowledge. Managing Risk. Delivering Results.<tspan font-size="10" dy="-6">™</tspan></text>
+  </g>
+  <g text-anchor="middle" font-family="'JetBrains Mono', monospace" font-weight="700">
+    <text x="240" y="408" font-size="11" fill="#C69233" letter-spacing="6">SYDNEY  |  NSW  |  AUSTRALIA</text>
+  </g>
+</svg>

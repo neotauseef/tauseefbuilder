@@ -18,6 +18,7 @@ const content = {
   projects: loadJson("projects.json"),
   about:    loadJson("about.json"),
   contact:  loadJson("contact.json"),
+  portal:   loadJson("portal.json"),
 };
 
 // -------- Templating --------
@@ -71,30 +72,32 @@ app.get("/contact",  (req, res) => res.redirect(301, "/#engage"));
 
 // Portal + Sign-in placeholders (the target site links to them; we serve a
 // simple holding page so nothing 404s.)
+// -------- Client Portal --------
+// GET /portal          → Access Portal (login gate)
+// POST /portal/access  → validates + sets a lightweight session cookie, redirects to /portal/command-console
+// GET /portal/command-console → Command Console dashboard
 app.get("/portal", (req, res) => {
-  res.render("stub.njk", {
+  res.render("portal.njk", {
     page_id: "portal",
-    meta: { title: "Client Portal — ACC & Associates", description: "ACC Client Portal — coming soon." },
-    stub: {
-      eyebrow: "// CLIENT PORTAL",
-      title: "Command Centre access.",
-      body: "The ACC Client Portal is where retained clients see their live project dashboard, documents and evidence trail. Access is issued by ACC on engagement.",
-      cta: { label: "Request access", href: "/#engage" },
-    },
+    meta: content.portal.access.meta,
+    portal: content.portal.access,
   });
 });
-app.get("/signin", (req, res) => {
-  res.render("stub.njk", {
-    page_id: "signin",
-    meta: { title: "Sign In — ACC & Associates", description: "Sign in to the ACC Client Portal." },
-    stub: {
-      eyebrow: "// SIGN IN",
-      title: "Sign in to the Client Portal.",
-      body: "Enter the credentials issued with your engagement letter. If you've lost them, request a reset below.",
-      cta: { label: "Contact ACC", href: "/#engage" },
-    },
+app.post("/portal/access", (req, res) => {
+  // Demo gate — any submitted credentials pass. Real deployment would hit an auth provider here.
+  res.cookie("acc_portal", "1", { httpOnly: true, sameSite: "lax", maxAge: 60 * 60 * 1000 });
+  res.redirect(303, "/portal/command-console");
+});
+app.get("/portal/command-console", (req, res) => {
+  res.render("console.njk", {
+    page_id: "console",
+    meta: content.portal.console.meta,
+    console: content.portal.console,
   });
 });
+// Convenience aliases
+app.get("/signin", (req, res) => res.redirect(302, "/portal"));
+app.get("/console", (req, res) => res.redirect(302, "/portal/command-console"));
 
 // -------- Enquiry --------
 const enquiryLimiter = rateLimit({

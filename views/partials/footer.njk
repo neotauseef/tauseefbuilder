@@ -1,7 +1,7 @@
 <footer class="footer" role="contentinfo">
   <div class="footer__grid">
     <div class="footer__brand">
-      <div class="footer__badge">ACC</div>
+      <img class="footer__mark" src="/acc-logo-mark.svg" alt="ACC" width="72" height="48">
       <div class="footer__logo">{{ site.firm.name }}</div>
       <div class="footer__tagline">{{ site.firm.descriptor }} · {{ site.firm.tagline }}</div>
       <div class="footer__motto">{{ site.firm.motto }}</div>
@@ -20,6 +20,7 @@
       {% for item in site.nav %}
         <a class="footer__navlink" href="{{ item.href }}">{{ item.label }}</a>
       {% endfor %}
+      <a class="footer__navlink" href="/portal">Client Portal</a>
     </div>
   </div>
   <div class="footer__base">

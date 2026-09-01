@@ -23,6 +23,7 @@
     "title": "Command Centre™",
     "lede": "Real-time visibility. Smarter decisions.",
     "cta": { "label": "Access Command Centre", "href": "/portal" },
+    "cta_note": "Sign in to open the Command Console — cross-portfolio KPIs, top risks, live sites.",
     "kpis": [
       { "label": "Projects",         "value": "3" },
       { "label": "Contract Value",   "value": "$150M" },

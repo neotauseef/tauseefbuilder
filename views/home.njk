@@ -29,23 +29,12 @@
 {# ============================ BRAND BAND ============================ #}
 <section class="brand-band">
   <div class="brand-band__inner">
-    <div class="brand-band__mark">
-      <span class="brand-band__badge">ACC</span>
-      <span class="brand-band__name">&amp; ASSOCIATES</span>
-    </div>
-    <div class="brand-band__sub">CONSTRUCTION CONSULTING FIRM</div>
-    <div class="brand-band__pipe">
-      <span>STRATEGY</span><span class="pipe-dot">•</span>
-      <span>PLANNING</span><span class="pipe-dot">•</span>
-      <span>DELIVERY</span>
-    </div>
+    <img class="brand-band__logo" src="/acc-logo.svg" alt="{{ site.firm.long_name }} — Construction Consulting Firm" width="480" height="420">
     <ul class="pill-grid">
       {% for p in site.capability_pills %}
         <li class="pill">{{ p }}</li>
       {% endfor %}
     </ul>
-    <div class="brand-band__motto">{{ site.firm.motto }}</div>
-    <div class="brand-band__region">{{ site.office.region | replace('·', '|') | upper }}</div>
   </div>
 </section>
 
@@ -55,7 +44,10 @@
     <div class="section__mark">{{ home.command_centre.eyebrow }}</div>
     <h2 class="section__h">{{ home.command_centre.title }}</h2>
     <p class="section__lede">{{ home.command_centre.lede }}</p>
-    <a class="btn btn--outline" href="{{ home.command_centre.cta.href }}">{{ home.command_centre.cta.label }}</a>
+    <div class="cmd-cta">
+      <a class="btn btn--primary" href="{{ home.command_centre.cta.href }}">{{ home.command_centre.cta.label }} <span aria-hidden="true">→</span></a>
+      <p class="cmd-cta__note">{{ home.command_centre.cta_note }}</p>
+    </div>
     <div class="kpi-grid">
       {% for k in home.command_centre.kpis %}
         <div class="kpi">

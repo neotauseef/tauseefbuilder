@@ -1,0 +1,24 @@
+{% extends "layout.njk" %}
+{% block content %}
+<section class="section section--portal">
+  <div class="portal">
+    <img class="portal__mark" src="/acc-logo-mark.svg" alt="ACC" width="90" height="60">
+    <div class="portal__eyebrow">{{ portal.eyebrow }}</div>
+    <h1 class="portal__h">{{ portal.title }}</h1>
+    <p class="portal__lede">{{ portal.lede }}</p>
+
+    <form class="portal__form" method="POST" action="/portal/access">
+      {% for f in portal.fields %}
+        <label class="field">
+          <span class="field__k">{{ f.label }}</span>
+          <input type="{{ f.type }}" name="{{ f.name }}" placeholder="{{ f.placeholder }}"{% if f.name != 'project' %} required{% endif %}>
+        </label>
+      {% endfor %}
+      <button class="btn btn--{{ portal.cta.kind }} btn--large" type="submit">{{ portal.cta.label }} <span aria-hidden="true">→</span></button>
+    </form>
+
+    <p class="portal__helper">{{ portal.helper }}</p>
+    <p class="portal__foot"><a href="/#engage">{{ portal.footnote }}</a></p>
+  </div>
+</section>
+{% endblock %}

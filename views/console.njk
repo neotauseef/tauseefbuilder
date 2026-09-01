@@ -1,0 +1,146 @@
+{% extends "layout.njk" %}
+{% block content %}
+<section class="section section--console">
+  <div class="section__inner">
+    <div class="console__head">
+      <div>
+        <div class="section__mark">{{ console.eyebrow }}</div>
+        <h1 class="console__h">{{ console.title }}</h1>
+        <p class="console__lede">{{ console.lede }}</p>
+      </div>
+      <div class="console__actions">
+        {% for a in console.actions %}
+          <button class="btn btn--{{ a.kind }}" type="button" data-icon="{{ a.icon }}">
+            {% if a.icon == 'refresh' %}⟳{% elif a.icon == 'eye' %}◉{% endif %}
+            <span>{{ a.label | upper }}</span>
+          </button>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="console-kpis">
+      {% for k in console.kpis %}
+        <div class="ckpi">
+          <div class="ckpi__label">{{ k.label }}</div>
+          <div class="ckpi__value ckpi__value--{{ k.tone }}">{{ k.value }}</div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="console-row">
+      <section class="console-block" aria-labelledby="live-sites-h">
+        <header class="console-block__head">
+          <span class="console-block__mark" id="live-sites-h">◈ {{ console.live_sites.mark }}</span>
+          <a class="console-block__more" href="{{ console.live_sites.action.href }}">{{ console.live_sites.action.label | upper }} →</a>
+        </header>
+        <div class="site-card">
+          <div class="site-card__top">
+            <h3 class="site-card__h">{{ console.live_sites.site.title }}</h3>
+            <span class="site-card__state">{{ console.live_sites.site.status }}</span>
+          </div>
+          <div class="site-card__client">{{ console.live_sites.site.client }}</div>
+          <div class="site-card__row">
+            <span class="site-card__k">PROGRESS</span>
+            <span class="site-card__v site-card__v--brass">{{ console.live_sites.site.progress }}</span>
+          </div>
+          <div class="site-card__note">{{ console.live_sites.site.progress_note }}</div>
+          <div class="site-card__row">
+            <span class="site-card__k">COST VS BUDGET</span>
+            <span class="site-card__v site-card__v--brass">{{ console.live_sites.site.cost_vs_budget }}</span>
+          </div>
+          <div class="site-card__note">{{ console.live_sites.site.cost_amount }}</div>
+          <div class="site-card__grid">
+            <div>
+              <div class="site-card__k">NEXT MILESTONE</div>
+              <div>{{ console.live_sites.site.next_milestone }}</div>
+            </div>
+            <div>
+              <div class="site-card__k">DAYS REMAINING</div>
+              <div class="site-card__v">{{ console.live_sites.site.days_remaining }}</div>
+              <div class="site-card__note">{{ console.live_sites.site.ends }}</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="console-block" aria-labelledby="active-h">
+        <header class="console-block__head">
+          <span class="console-block__mark" id="active-h">{{ console.active_projects.mark }}</span>
+          <a class="console-block__more" href="{{ console.active_projects.action.href }}">{{ console.active_projects.action.label | upper }} ↗</a>
+        </header>
+        <ul class="proj-list">
+          {% for p in console.active_projects.items %}
+            <li class="proj-line">
+              <div class="proj-line__body">
+                <div class="proj-line__title">{{ p.title }}</div>
+                <div class="proj-line__client">{{ p.client }}</div>
+              </div>
+              <div class="proj-line__right">
+                <div class="proj-line__value">{{ p.value }}</div>
+                <div class="proj-line__state proj-line__state--{{ p.state | lower }}">{{ p.state }}</div>
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+    </div>
+
+    <div class="console-row">
+      <section class="console-block" aria-labelledby="risks-h">
+        <header class="console-block__head">
+          <span class="console-block__mark" id="risks-h">{{ console.top_risks.mark }}</span>
+          <a class="console-block__more" href="{{ console.top_risks.action.href }}">{{ console.top_risks.action.label | upper }} →</a>
+        </header>
+        <ul class="risk-list">
+          {% for r in console.top_risks.items %}
+            <li class="risk">
+              <div>
+                <div class="risk__cat">{{ r.category }}</div>
+                <div class="risk__title">{{ r.title }}</div>
+              </div>
+              <div class="risk__sev risk__sev--{{ r.tone }}">{{ r.severity }}</div>
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+
+      <section class="console-block" aria-labelledby="team-h">
+        <header class="console-block__head">
+          <span class="console-block__mark" id="team-h">◐ {{ console.team_workload.mark }}</span>
+          <a class="console-block__more" href="{{ console.team_workload.action.href }}">{{ console.team_workload.action.label | upper }} →</a>
+        </header>
+        <p class="console-empty">{{ console.team_workload.empty }}</p>
+      </section>
+    </div>
+
+    <section class="console-block" aria-labelledby="cash-h">
+      <header class="console-block__head">
+        <span class="console-block__mark" id="cash-h">{{ console.cash_flow.mark }}</span>
+      </header>
+      <p class="console-empty">{{ console.cash_flow.empty }}</p>
+    </section>
+
+    <section class="console-ref">
+      <div class="console-ref__mark">{{ console.reference.mark }}</div>
+      <div class="console-ref__block">
+        <div class="console-ref__submark">{{ console.reference.contact_mark }}</div>
+        <div class="console-ref__addr">{{ console.reference.address }}</div>
+        <div class="console-ref__motto">{{ console.reference.motto }}</div>
+        <ul class="console-ref__channels">
+          {% for ch in console.reference.channels %}
+            <li>
+              <span class="console-ref__icon" aria-hidden="true">{% if ch.icon == 'mail' %}✉{% elif ch.icon == 'phone' %}☎{% else %}◍{% endif %}</span>
+              <a href="{{ ch.href }}">{{ ch.value }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="console-ref__framework">
+        <div class="console-ref__submark">{{ console.reference.framework.mark }}</div>
+        <div class="console-ref__fw-title">{{ console.reference.framework.title }}</div>
+        <div class="console-ref__fw-sub">{{ console.reference.framework.sub }}</div>
+      </div>
+    </section>
+  </div>
+</section>
+{% endblock %}

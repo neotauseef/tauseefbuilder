@@ -1,0 +1,100 @@
+{
+  "access": {
+    "meta": {
+      "title": "Access Portal — ACC & Associates",
+      "description": "Access the ACC Command Console — cross-portfolio KPIs, top risks, and active engagements."
+    },
+    "eyebrow": "// CLIENT PORTAL",
+    "title": "Access Portal",
+    "lede": "Sign in with the credentials issued in your engagement letter to open the ACC Command Console — real-time visibility across your portfolio.",
+    "fields": [
+      { "name": "email",    "label": "EMAIL",       "type": "email",    "placeholder": "you@company.com" },
+      { "name": "password", "label": "PASSWORD",    "type": "password", "placeholder": "••••••••" },
+      { "name": "project",  "label": "PROJECT REF (OPTIONAL)", "type": "text", "placeholder": "e.g. HVT-01" }
+    ],
+    "cta":    { "label": "Access Command Console", "kind": "primary" },
+    "helper": "Any credentials work in this demo — the portal is a preview and does not authenticate against a live directory.",
+    "footnote": "New engagement? Request access from the Engage section on the home page."
+  },
+  "console": {
+    "meta": {
+      "title": "Command Console — ACC & Associates",
+      "description": "Cross-portfolio KPIs, top risks, active engagements, live sites, team workload."
+    },
+    "eyebrow": "// OVERVIEW",
+    "title": "COMMAND CONSOLE",
+    "lede": "Cross-portfolio KPIs, top risks and active engagements.",
+    "actions": [
+      { "label": "Rebuild all board summaries", "kind": "outline", "icon": "refresh" },
+      { "label": "Preview reply digest",        "kind": "ghost",   "icon": "eye" }
+    ],
+    "kpis": [
+      { "label": "PROJECTS",         "value": "3",             "tone": "ink"  },
+      { "label": "OPEN RISKS",       "value": "4",             "tone": "ink"  },
+      { "label": "HIGH SEVERITY",    "value": "2",             "tone": "red"  },
+      { "label": "CONTRACTS",        "value": "0",             "tone": "ink"  },
+      { "label": "NON-COMPLIANT",    "value": "0",             "tone": "red"  },
+      { "label": "PORTFOLIO VALUE",  "value": "$150,000,000",  "tone": "ink"  }
+    ],
+    "live_sites": {
+      "mark": "// LIVE SITES · 1 ACTIVE",
+      "action": { "label": "All projects", "href": "#projects" },
+      "site": {
+        "title": "Harbour View Tower — Design & Construct",
+        "client": "MERIDIAN DEVELOPMENTS · SYDNEY, NSW",
+        "status": "ACTIVE",
+        "progress": "0%",
+        "progress_note": "No stages yet",
+        "cost_vs_budget": "0%",
+        "cost_amount": "$0 of $148,500,000",
+        "next_milestone": "—",
+        "days_remaining": "821",
+        "ends": "Ends 30 Nov 28"
+      }
+    },
+    "active_projects": {
+      "mark": "// ACTIVE PROJECTS",
+      "action": { "label": "View all", "href": "#projects" },
+      "items": [
+        { "title": "UI Test Project A",                         "client": "UI Client · Melbourne",         "value": "$500,000",     "state": "PLANNING" },
+        { "title": "Test Project",                              "client": "Test Client · Sydney",          "value": "$1,000,000",   "state": "PLANNING" },
+        { "title": "Harbour View Tower — Design & Construct",   "client": "Meridian Developments · Sydney, NSW", "value": "$148,500,000", "state": "ACTIVE"  }
+      ]
+    },
+    "top_risks": {
+      "mark": "// TOP RISKS",
+      "action": { "label": "Register", "href": "#risks" },
+      "items": [
+        { "category": "TECHNICAL",   "title": "Latent conditions in basement excavation", "severity": 20, "tone": "red" },
+        { "category": "COMPLIANCE",  "title": "NCC 2025 fire compliance rework",          "severity": 15, "tone": "red" },
+        { "category": "TECHNICAL",   "title": "UI Risk Test",                             "severity": 12, "tone": "brass" },
+        { "category": "CONTRACTUAL", "title": "AS4902 variation dispute exposure",         "severity": 12, "tone": "brass" }
+      ]
+    },
+    "team_workload": {
+      "mark": "// TEAM WORKLOAD",
+      "action": { "label": "Team", "href": "/#team" },
+      "empty": "No consultants assigned yet · assign owners to risks and photographers to sites."
+    },
+    "cash_flow": {
+      "mark": "// CASH FLOW",
+      "empty": "No cash-flow data · seed schedule stages on your Active projects to populate this curve."
+    },
+    "reference": {
+      "mark": "// FIRM REFERENCE",
+      "contact_mark": "// FIRM CONTACT",
+      "address": "13/1567 GEORGE ST, PO BOX 46, LIVERPOOL NSW 2170",
+      "motto": "Building Knowledge. Managing Risk. Delivering Results.",
+      "channels": [
+        { "icon": "mail",  "value": "info@accassociate.com.au",  "href": "mailto:info@accassociate.com.au" },
+        { "icon": "phone", "value": "02 7921 5670",               "href": "tel:+61279215670" },
+        { "icon": "web",   "value": "www.accassociate.com.au",   "href": "https://www.accassociate.com.au" }
+      ],
+      "framework": {
+        "mark": "// REFERENCE",
+        "title": "Project Timeline Framework",
+        "sub":   "8-phase delivery framework · Kick-off → Delivery & Closure"
+      }
+    }
+  }
+}
