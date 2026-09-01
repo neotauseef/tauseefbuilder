@@ -1,9 +1,9 @@
 {
   "firm": {
-    "name": "ACC Associates",
-    "long_name": "ACC Associates Pty Ltd",
-    "descriptor": "Construction & Project Management Consultants",
-    "tagline": "NSW Wide Services",
+    "name": "Australia Construction Consultants & Associates",
+    "long_name": "Australia Construction Consultants & Associates Pty Ltd",
+    "descriptor": "Senior-level construction consulting",
+    "tagline": "The Tool for Success",
     "abn": "15 068 411 0",
     "license": "248808C",
     "founded": 1984
@@ -21,7 +21,7 @@
     "mobile_href":  "tel:+61415506867",
     "office":       "(02) 7921 5670",
     "office_href":  "tel:+61279215670",
-    "email":        "antonio@acc.com",
-    "email_href":   "mailto:antonio@acc.com"
+    "email":        "antonio@acca.com.au",
+    "email_href":   "mailto:antonio@acca.com.au"
   }
 }

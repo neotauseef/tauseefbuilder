@@ -1,12 +1,12 @@
 {
   "meta": {
-    "title": "Projects — ACC Associates Construction & Project Management Consultants",
-    "description": "The shape of the engagements we take on. Illustrative examples — specific project references available under NDA on request."
+    "title": "Projects — Australia Construction Consultants & Associates",
+    "description": "The shape of the engagements ACCA takes on. Illustrative examples — specific project references available under NDA on request."
   },
   "intro": {
     "eyebrow": "02 / ENGAGEMENTS",
     "headline": "The shape of the work.",
-    "lede": "Illustrative examples of the kinds of engagements ACC Associates takes on. Specific project references, with clients and outcomes, are available under NDA on request."
+    "lede": "Illustrative examples of the kinds of engagements ACCA takes on. Specific project references, with clients and outcomes, are available under NDA on request."
   },
   "items": [
     {
@@ -22,8 +22,8 @@
       "code": "TYPE 02",
       "sector": "Health — day-surgery precinct",
       "location": "NSW",
-      "engagement": "Contract Administration",
-      "problem": "A principal takes on a health-sector build under AS 4000 and needs contract administration support — RFIs, variations, and EOT assessments — during the critical delivery phase.",
+      "engagement": "Contract Advisory",
+      "problem": "A principal takes on a health-sector build under AS 4000 and needs contract advisory support — RFIs, variations, and EOT assessments — during the critical delivery phase.",
       "intervention": "Contract administration during construction: RFI register, variation register, monthly progress claims and certifications, EOT windows analysis where claims are served.",
       "outcome_label": "Contract paperwork run to close-out."
     },
@@ -31,7 +31,7 @@
       "code": "TYPE 03",
       "sector": "Education — school masterplan",
       "location": "NSW",
-      "engagement": "Feasibility Study",
+      "engagement": "Feasibility",
       "problem": "A school board is weighing a stage-two build and needs an independent read on cost, programme, and risk before authorising tender.",
       "intervention": "Feasibility study to elemental cost-plan level. Benchmarked against comparable completed projects; risk register issued alongside the cost plan.",
       "outcome_label": "Board-ready feasibility with cost plan and risk register."
@@ -40,25 +40,25 @@
       "code": "TYPE 04",
       "sector": "Industrial — logistics estate",
       "location": "NSW",
-      "engagement": "Superintendent Services",
-      "problem": "An owner requires a named superintendent under AS 4000 for a multi-tenancy industrial build, with independent certification and dispute-ready determinations.",
-      "intervention": "Superintendent role for the life of the contract: monthly certificates, formal determinations on EOT and variations, direction to correct where required.",
-      "outcome_label": "Independent superintendent through construction and DLP."
+      "engagement": "Estimating",
+      "problem": "An owner needs an independent trade-level estimate to test a builder's lump-sum price on a multi-tenancy industrial build before award.",
+      "intervention": "Trade-level estimate with rate build-ups; benchmarking against comparable completed projects; written commentary on the drivers of the difference to the tendered price.",
+      "outcome_label": "Independent cost check ahead of award."
     },
     {
       "code": "TYPE 05",
       "sector": "Public infrastructure — precinct works",
       "location": "NSW",
-      "engagement": "Tender & Procurement",
-      "problem": "A principal is moving from documentation to construction on a precinct-scale infrastructure project and wants the tender run to a standard that can be defended if the award is questioned.",
-      "intervention": "Tender package assembly, tenderer prequalification, scored evaluation against a written matrix, and a recommendation memo to the principal.",
-      "outcome_label": "Documented, defensible contractor selection."
+      "engagement": "Compliance",
+      "problem": "A principal on a precinct-scale infrastructure project needs certainty that construction matches the approved design and satisfies each authority condition before handover.",
+      "intervention": "Design-stage compliance review, construction-stage audits against NCC and planning conditions, and a close-out schedule of non-conformances tracked to resolution.",
+      "outcome_label": "Documented compliance close-out against each authority condition."
     },
     {
       "code": "TYPE 06",
       "sector": "Retail / hospitality — fit-out",
       "location": "NSW",
-      "engagement": "Risk & Quality Management",
+      "engagement": "Risk Management",
       "problem": "An owner wants an independent set of eyes on quality and risk during a retail fit-out — separate from the builder's own QA — with monthly audits and a live risk register.",
       "intervention": "Project risk register established and maintained live; ITP audits on defined milestones; non-conformance tracking with recommended actions.",
       "outcome_label": "Live risk register and independent quality audits through construction."

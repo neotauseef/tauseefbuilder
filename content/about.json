@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "About — ACC Associates Construction & Project Management Consultants",
-    "description": "ACC Associates is a NSW-based construction and project management consultancy. Managing Director: Antonio Hernandez."
+    "title": "About — Australia Construction Consultants & Associates",
+    "description": "ACCA is an Australian construction consultancy — senior-level advisors, client-side only. Managing Director: Antonio Hernandez."
   },
   "intro": {
     "eyebrow": "03 / ABOUT",
@@ -10,7 +10,7 @@
   "why": {
     "heading": "How we work",
     "body": [
-      "ACC Associates is a NSW-based construction and project management consultancy, established in 1984. We work on the owner's side of the table — for developers, principals, and property owners — never for the builder in the same matter.",
+      "Australia Construction Consultants & Associates is a consultancy established in 1984. We work on the owner's side of the table — for developers, principals, and property owners — never for the builder in the same matter.",
       "Every engagement is scoped in writing before we start, with named deliverables, a fee, and a date. Where the shape of the job allows it, the fee is fixed.",
       "For superintendent engagements our duty is to the contract, not the retaining party — and we hold that line in writing."
     ]
@@ -20,11 +20,11 @@
       "initials": "AH",
       "name": "Antonio Hernandez",
       "role": "Managing Director",
-      "bio": "Antonio leads ACC Associates's engagements across project management, contract administration, and superintendent services. Direct line to every project the firm takes on.",
+      "bio": "Antonio leads ACCA's engagements across contract advisory, risk, feasibility, estimating, compliance, and project management. Direct line to every project the firm takes on.",
       "contacts": [
-        { "label": "Mobile", "value": "0415 506 867",   "href": "tel:+61415506867" },
-        { "label": "Office", "value": "(02) 7921 5670", "href": "tel:+61279215670" },
-        { "label": "Email",  "value": "antonio@acc.com","href": "mailto:antonio@acc.com" }
+        { "label": "Mobile", "value": "0415 506 867",         "href": "tel:+61415506867" },
+        { "label": "Office", "value": "(02) 7921 5670",       "href": "tel:+61279215670" },
+        { "label": "Email",  "value": "antonio@acca.com.au",  "href": "mailto:antonio@acca.com.au" }
       ]
     }
   ],
@@ -33,7 +33,7 @@
     "items": [
       { "label": "ABN",           "value": "15 068 411 0" },
       { "label": "License No.",   "value": "248808C" },
-      { "label": "Service area",  "value": "New South Wales" },
+      { "label": "Service area",  "value": "Australia" },
       { "label": "Established",   "value": "1984" }
     ]
   }

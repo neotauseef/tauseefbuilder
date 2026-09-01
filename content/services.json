@@ -1,61 +1,61 @@
 {
   "meta": {
-    "title": "Services — ACC Associates Construction & Project Management Consultants",
-    "description": "Six services: project management, contract administration, superintendent services, feasibility studies, tender & procurement, risk & quality management. NSW wide."
+    "title": "Services — Australia Construction Consultants & Associates",
+    "description": "Contract advisory, risk management, feasibility, estimating, compliance, and client-side project management. Senior-level engagements across Australia."
   },
   "intro": {
     "eyebrow": "01 / SERVICES",
-    "headline": "Six services. Client-side.",
-    "lede": "ACC Associates acts for the owner, developer, or principal — never for the builder. Every engagement is scoped in writing before we start."
+    "headline": "Six services. Senior-level. Client-side.",
+    "lede": "ACCA acts for the owner, developer, or principal — never for the builder. Every engagement is scoped in writing before we start."
   },
   "items": [
     {
       "mark": "§ 1",
-      "name": "Project Management",
-      "trigger": "End-to-end, on the owner's side of the table.",
-      "what": "Client-side project management from initial planning through to handover. Programme oversight, cost tracking, consultant coordination, principal reporting, and stakeholder management across the full project lifecycle.",
-      "when": "You need a single project manager accountable to you — not the builder — running the project as an extension of your own team.",
-      "deliverable": "Weekly progress reporting, monthly cost and programme dashboards, risk register maintained live, and a complete document register at handover."
+      "name": "Contract Advisory",
+      "trigger": "Before the contract is signed — and every time it moves.",
+      "what": "Contract review and negotiation support under AS 4000, AS 4902, AS 2124, GC21, and bespoke forms. Ongoing administration once signed — RFIs, variations, extension-of-time assessments, progress claims, notices, and correspondence.",
+      "when": "You need the contract paperwork run by a firm that has argued both sides of the same disputes and knows where each form breaks.",
+      "deliverable": "Written contract review, negotiated special conditions, and — where the engagement continues into delivery — monthly reporting and a complete document register at practical completion."
     },
     {
       "mark": "§ 2",
-      "name": "Contract Administration",
-      "trigger": "Once the contract is signed.",
-      "what": "Full contract administration under AS 4000, AS 4902, AS 2124, GC21, or bespoke forms — RFIs, variations, extension-of-time assessments, progress claims, notices, and correspondence. Impartial where the contract requires it.",
-      "when": "You are the principal or superintendent representative and need the paperwork run by a firm that knows both sides of the same disputes.",
-      "deliverable": "Ongoing engagement with monthly reporting; complete document register handed over at practical completion."
+      "name": "Risk Management",
+      "trigger": "Before problems reach the site.",
+      "what": "Project risk register development and maintenance, quality-plan review, ITP (inspection & test plan) audits during construction, non-conformance tracking, and defect-prevention advice. Site quality audits on request.",
+      "when": "You want an independent set of eyes on quality and risk — separate from the builder's own QA — either continuously or at defined milestones.",
+      "deliverable": "Live risk register, quality audit reports, ITP register review, and non-conformance summaries with recommended actions."
     },
     {
       "mark": "§ 3",
-      "name": "Superintendent Services",
-      "trigger": "Named superintendent under AS 4000 / AS 4902.",
-      "what": "Independent superintendent role: site visits, certifications, extension-of-time determinations, direction to correct, practical completion certification, and DLP administration. Held to the same standard of independence a court would expect.",
-      "when": "You need a superintendent who will hold the middle ground when it costs one party money, and who is prepared to defend a determination in writing.",
-      "deliverable": "Site inspection reports, monthly certificates, formal determinations, PC and DLP certificates."
-    },
-    {
-      "mark": "§ 4",
-      "name": "Feasibility Studies",
+      "name": "Feasibility",
       "trigger": "Before you commit capital.",
       "what": "Pre-commitment feasibility: site constraints, cost planning to elemental level, indicative programme, and a risk register you can hand to a board or a bank. Benchmarked against comparable completed projects.",
       "when": "You are about to seek finance, land at auction, or trigger a stage-two commitment, and the numbers in front of you have not yet been independently tested.",
       "deliverable": "Written feasibility report, cost plan, risk register, one revision, and presentation to your board or lender."
     },
     {
+      "mark": "§ 4",
+      "name": "Estimating",
+      "trigger": "Numbers you can defend.",
+      "what": "Independent cost estimates at any stage — order-of-magnitude, elemental, trade-level, or bill of quantities. Tender price analysis, variation cost checks, and progress-claim assessment against the contract sum.",
+      "when": "You need a cost check that is not the builder's, and not a headline number from a spreadsheet you cannot audit.",
+      "deliverable": "Priced estimate with rate build-ups, assumptions register, and a written commentary on the drivers of the number."
+    },
+    {
       "mark": "§ 5",
-      "name": "Tender & Procurement",
-      "trigger": "Get the right builder onto the right contract.",
-      "what": "Tender documentation, RFP management, tenderer prequalification, tender evaluation to a scoring matrix, and contract-award recommendation. Contract form and special conditions drafted or reviewed.",
-      "when": "You are moving from documentation to construction and want the tender run cleanly enough to defend the award later if it is questioned.",
-      "deliverable": "Tender package, tenderer register, evaluation report with scoring, and a recommendation memo to the principal."
+      "name": "Compliance",
+      "trigger": "The rules that decide whether the project completes.",
+      "what": "Compliance advisory across the NCC / BCA, planning conditions, WHS obligations, and contract-specified standards. Design-stage review, construction-stage audits, and defect-and-compliance reports at practical completion.",
+      "when": "You need to know whether what is being built matches what was approved — and whether the paperwork will survive the certifier.",
+      "deliverable": "Compliance review report, non-conformance schedule, and a close-out summary against each authority condition."
     },
     {
       "mark": "§ 6",
-      "name": "Risk & Quality Management",
-      "trigger": "Before problems reach the site.",
-      "what": "Project risk register development and maintenance, quality plan review, ITP (inspection & test plan) audits during construction, non-conformance tracking, and defect-prevention advice. Site quality audits on request.",
-      "when": "You want an independent set of eyes on quality and risk — separate from the builder's own QA — either continuously or at defined milestones.",
-      "deliverable": "Risk register, quality audit reports, ITP register review, and non-conformance summaries with recommended actions."
+      "name": "Project Management",
+      "trigger": "End-to-end, on the owner's side of the table.",
+      "what": "Client-side project management from initial planning through to handover. Programme oversight, cost tracking, consultant coordination, principal reporting, and stakeholder management across the full project lifecycle. Superintendent role under AS 4000 / AS 4902 where required.",
+      "when": "You need a single project manager accountable to you — not the builder — running the project as an extension of your own team.",
+      "deliverable": "Weekly progress reporting, monthly cost and programme dashboards, risk register maintained live, and a complete document register at handover."
     }
   ]
 }

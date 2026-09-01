@@ -1,7 +1,7 @@
 <footer class="footer" role="contentinfo">
   <div class="footer__grid">
     <div class="footer__brand">
-      <div class="footer__logo">ACC Associates</div>
+      <div class="footer__logo">{{ site.firm.name }}</div>
       <div class="footer__tagline">{{ site.firm.descriptor }} · {{ site.firm.tagline }}</div>
       <div class="footer__meta">ABN {{ site.firm.abn }} &middot; License No. {{ site.firm.license }} &middot; Established {{ site.firm.founded }}</div>
     </div>
@@ -23,7 +23,7 @@
     </div>
   </div>
   <div class="footer__base">
-    <div>&copy; {{ year }} ACC Associates Pty Ltd. All rights reserved.</div>
+    <div>&copy; {{ year }} {{ site.firm.long_name }}. All rights reserved.</div>
     <div class="footer__palette" aria-label="Palette swatches">
       <span class="sw" style="background:#1B4332" title="Field #1B4332"></span>
       <span class="sw" style="background:#B4873A" title="Brass #B4873A"></span>

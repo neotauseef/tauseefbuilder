@@ -1,18 +1,18 @@
 {
   "meta": {
-    "title": "ACC Associates — Construction & Project Management Consultants, NSW",
-    "description": "Client-side construction and project management consultancy across NSW. Project management, contract administration, superintendent services, feasibility, tender & procurement, risk & quality."
+    "title": "Australia Construction Consultants · The Tool for Success",
+    "description": "Australia Construction Consultants & Associates — Senior-level construction consulting. The Tool for Success. Contract advisory, risk management, feasibility, estimating and compliance."
   },
   "hero": {
-    "eyebrow": "ACC Associates · NSW · EST. 1984",
+    "eyebrow": "AUSTRALIA CONSTRUCTION CONSULTANTS & ASSOCIATES · EST. 1984",
     "headline": [
-      "Client-side",
+      "Senior-level",
       "construction",
       "consulting.",
-      "Every sector,",
-      "every stage."
+      "The Tool",
+      "for Success."
     ],
-    "lede": "Since 1984, ACC Associates has represented developers, owners, and principals on projects across New South Wales — residential, commercial, health, education, aged care, industrial, and government infrastructure. Feasibility through handover.",
+    "lede": "ACCA acts client-side for developers, owners, and principals across Australia. Contract advisory, risk management, feasibility, estimating, and compliance — from pre-commitment through practical completion.",
     "cta": { "label": "Start an enquiry", "href": "/contact" },
     "programme": {
       "code": "SAMPLE · PROGRAMME RECOVERY · ILLUSTRATIVE",
@@ -21,7 +21,7 @@
         { "id": "planning",  "label": "PLANNING",  "start": 12, "planned_end": 34, "actual_end": 36 },
         { "id": "delivery",  "label": "DELIVERY",  "start": 36, "planned_end": 88, "actual_end": 100, "eot_days": 47 }
       ],
-      "engagement": { "at": 72, "label": "ACC Associates engaged" },
+      "engagement": { "at": 72, "label": "ACCA engaged" },
       "ticks": [
         { "at": 0,   "label": "Mo. 1" },
         { "at": 25,  "label": "Mo. 6" },
@@ -45,16 +45,16 @@
     ],
     "positioning": [
       "Independent — we act for the owner, not the builder.",
-      "NSW-based — Sydney office, projects across the state.",
+      "Senior-level advisors on every engagement — no juniors run the file.",
       "Fixed-scope engagements wherever the shape of the work allows."
     ]
   },
   "engage": {
     "eyebrow": "How we engage",
     "steps": [
-      { "n": "01", "title": "Brief",              "detail": "A short call, no charge. Tell us the project, the contract, and what you need." },
-      { "n": "02", "title": "Scope and fee",      "detail": "A one-page scope with named deliverables, a fee, and a date. Signed both ways." },
-      { "n": "03", "title": "Site and documents", "detail": "Site walk where relevant. Documents review — programme, contract, RFIs, variations, correspondence." },
+      { "n": "01", "title": "Brief",                "detail": "A short call, no charge. Tell us the project, the contract, and what you need." },
+      { "n": "02", "title": "Scope and fee",        "detail": "A one-page scope with named deliverables, a fee, and a date. Signed both ways." },
+      { "n": "03", "title": "Site and documents",   "detail": "Site walk where relevant. Documents review — programme, contract, RFIs, variations, correspondence." },
       { "n": "04", "title": "Report or engagement", "detail": "A written report you can hand to a bank, a builder, or your board. Or an ongoing contract-admin, superintendent, or PM role." }
     ]
   }
