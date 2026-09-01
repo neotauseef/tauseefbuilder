@@ -1,61 +1,94 @@
 {
   "meta": {
-    "title": "Services — Australia Construction Consultants & Associates",
-    "description": "Contract advisory, risk management, feasibility, estimating, compliance, and client-side project management. Senior-level engagements across Australia."
+    "title": "Capabilities — ACC & Associates",
+    "description": "Nine service lines. One accountable practice. Feasibility, cost review, PERT planning, construction management, contract administration, tendering, risk, defects and independent advisory."
   },
   "intro": {
-    "eyebrow": "01 / SERVICES",
-    "headline": "Six services. Senior-level. Client-side.",
-    "lede": "ACCA acts for the owner, developer, or principal — never for the builder. Every engagement is scoped in writing before we start."
+    "eyebrow": "// 02 / CAPABILITIES",
+    "headline": "Nine service lines. One accountable practice.",
+    "lede": "From feasibility through completion, dispute and independent review — commercially aware, evidence-controlled, aligned with NSW obligations."
   },
   "items": [
     {
-      "mark": "§ 1",
-      "name": "Contract Advisory",
-      "trigger": "Before the contract is signed — and every time it moves.",
-      "what": "Contract review and negotiation support under AS 4000, AS 4902, AS 2124, GC21, and bespoke forms. Ongoing administration once signed — RFIs, variations, extension-of-time assessments, progress claims, notices, and correspondence.",
-      "when": "You need the contract paperwork run by a firm that has argued both sides of the same disputes and knows where each form breaks.",
-      "deliverable": "Written contract review, negotiated special conditions, and — where the engagement continues into delivery — monthly reporting and a complete document register at practical completion."
-    },
-    {
-      "mark": "§ 2",
-      "name": "Risk Management",
-      "trigger": "Before problems reach the site.",
-      "what": "Project risk register development and maintenance, quality-plan review, ITP (inspection & test plan) audits during construction, non-conformance tracking, and defect-prevention advice. Site quality audits on request.",
-      "when": "You want an independent set of eyes on quality and risk — separate from the builder's own QA — either continuously or at defined milestones.",
-      "deliverable": "Live risk register, quality audit reports, ITP register review, and non-conformance summaries with recommended actions."
-    },
-    {
-      "mark": "§ 3",
-      "name": "Feasibility",
+      "mark": "C.01",
+      "icon": "gauge",
+      "name": "Development & Project Feasibility",
       "trigger": "Before you commit capital.",
-      "what": "Pre-commitment feasibility: site constraints, cost planning to elemental level, indicative programme, and a risk register you can hand to a board or a bank. Benchmarked against comparable completed projects.",
+      "what": "Preliminary project feasibility, scope definition, construction methodology review, preliminary cost planning, program assessment, risk identification, procurement strategy and project viability advice.",
       "when": "You are about to seek finance, land at auction, or trigger a stage-two commitment, and the numbers in front of you have not yet been independently tested.",
-      "deliverable": "Written feasibility report, cost plan, risk register, one revision, and presentation to your board or lender."
+      "deliverable": "Written feasibility report, cost plan, risk register, and a board or lender presentation."
     },
     {
-      "mark": "§ 4",
-      "name": "Estimating",
+      "mark": "C.02",
+      "icon": "calc",
+      "name": "Construction Cost & Pricing Review",
       "trigger": "Numbers you can defend.",
-      "what": "Independent cost estimates at any stage — order-of-magnitude, elemental, trade-level, or bill of quantities. Tender price analysis, variation cost checks, and progress-claim assessment against the contract sum.",
+      "what": "Review of cost structures, direct costs, subcontractor allowances, preliminaries, overheads, contingencies, risk allowances and margins. Tender review, price reasonableness, scope gaps and commercial exposure.",
       "when": "You need a cost check that is not the builder's, and not a headline number from a spreadsheet you cannot audit.",
-      "deliverable": "Priced estimate with rate build-ups, assumptions register, and a written commentary on the drivers of the number."
+      "deliverable": "Priced review with rate build-ups, assumptions register, and written commentary on the drivers of the number."
     },
     {
-      "mark": "§ 5",
-      "name": "Compliance",
-      "trigger": "The rules that decide whether the project completes.",
-      "what": "Compliance advisory across the NCC / BCA, planning conditions, WHS obligations, and contract-specified standards. Design-stage review, construction-stage audits, and defect-and-compliance reports at practical completion.",
-      "when": "You need to know whether what is being built matches what was approved — and whether the paperwork will survive the certifier.",
-      "deliverable": "Compliance review report, non-conformance schedule, and a close-out summary against each authority condition."
+      "mark": "C.03",
+      "icon": "timer",
+      "name": "Project Planning & PERT / Program Management",
+      "trigger": "Programme that survives contact with the site.",
+      "what": "Development of project timelines, WBS, activity sequencing, dependencies, PERT estimates, critical path analysis, float analysis, milestones, procurement interfaces and recovery strategies.",
+      "when": "You need a programme that can be defended, updated on evidence, and used to run the job.",
+      "deliverable": "Baseline programme, WBS, updated programme cycles, and monthly float and critical-path commentary."
     },
     {
-      "mark": "§ 6",
-      "name": "Project Management",
-      "trigger": "End-to-end, on the owner's side of the table.",
-      "what": "Client-side project management from initial planning through to handover. Programme oversight, cost tracking, consultant coordination, principal reporting, and stakeholder management across the full project lifecycle. Superintendent role under AS 4000 / AS 4902 where required.",
-      "when": "You need a single project manager accountable to you — not the builder — running the project as an extension of your own team.",
-      "deliverable": "Weekly progress reporting, monthly cost and programme dashboards, risk register maintained live, and a complete document register at handover."
+      "mark": "C.04",
+      "icon": "helmet",
+      "name": "Construction Management & Site Coordination",
+      "trigger": "Practical support at the coalface.",
+      "what": "Practical support for construction planning, site coordination, subcontractor interfaces, sequencing, progress monitoring, quality coordination, inspections, defects management and completion.",
+      "when": "You want an experienced construction hand on your side of the fence during delivery.",
+      "deliverable": "Weekly site reports, subcontractor interface register, defects tracking, and monthly principal reports."
+    },
+    {
+      "mark": "C.05",
+      "icon": "scroll",
+      "name": "Contract Administration & Commercial Support",
+      "trigger": "Once the contract is signed.",
+      "what": "Contract documentation, progress claims, variations, payment assessment support, notices, program interfaces, records, correspondence and commercial tracking — subject to contractual requirements.",
+      "when": "You are the principal or superintendent and need the paperwork run by a firm that knows both sides of the same disputes.",
+      "deliverable": "Live registers, monthly reporting, and a complete document register at practical completion."
+    },
+    {
+      "mark": "C.06",
+      "icon": "box",
+      "name": "Tendering & Procurement Advisory",
+      "trigger": "Get the right builder onto the right contract.",
+      "what": "Tender preparation & review, scope packaging, subcontractor procurement, tender comparisons, clarifications, procurement schedules, long-lead item identification and capability review.",
+      "when": "You want the tender run to a standard that can be defended later if the award is questioned.",
+      "deliverable": "Tender package, tenderer register, scored evaluation and a recommendation memo to the principal."
+    },
+    {
+      "mark": "C.07",
+      "icon": "shield",
+      "name": "Risk, Compliance & Project Controls",
+      "trigger": "Before problems reach the site.",
+      "what": "Construction, commercial, program, procurement and delivery risks. We assist clients establish registers, reporting, inspection records, document controls and escalation aligned with NSW obligations.",
+      "when": "You want an independent set of eyes on quality, risk and compliance — separate from the builder's own QA.",
+      "deliverable": "Live risk register, controls matrix, audit reports and non-conformance summaries with actions."
+    },
+    {
+      "mark": "C.08",
+      "icon": "clipboard",
+      "name": "Defects, Completion & Handover",
+      "trigger": "Landing the plane.",
+      "what": "Completion planning, defect identification and tracking, close-out coordination, documentation review, handover planning and assistance with final project records.",
+      "when": "You are approaching practical completion and need someone to marshal the paperwork and the punch list.",
+      "deliverable": "Defect register, close-out pack, PC certificate support and DLP handover plan."
+    },
+    {
+      "mark": "C.09",
+      "icon": "magnifier",
+      "name": "Independent Construction Advisory",
+      "trigger": "A second read from someone without a stake.",
+      "what": "Independent review of project status, construction methodology, program performance, cost exposure, documentation and delivery risks so owners and stakeholders can decide with clarity.",
+      "when": "You need a defensible independent read — for a board, a lender, an insurer, or a court.",
+      "deliverable": "Written independent report with findings, recommended actions and a Q&A session with your team."
     }
   ]
 }

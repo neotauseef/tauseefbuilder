@@ -1,67 +1,65 @@
 {
   "meta": {
-    "title": "Projects — Australia Construction Consultants & Associates",
-    "description": "The shape of the engagements ACCA takes on. Illustrative examples — specific project references available under NDA on request."
+    "title": "Signature Projects — ACC & Associates",
+    "description": "Signature ACC engagements: commercial, industrial, health and infrastructure projects across NSW. Independent commercial oversight, evidence-controlled delivery."
   },
   "intro": {
-    "eyebrow": "02 / ENGAGEMENTS",
-    "headline": "The shape of the work.",
-    "lede": "Illustrative examples of the kinds of engagements ACCA takes on. Specific project references, with clients and outcomes, are available under NDA on request."
+    "eyebrow": "// 06 / SIGNATURE PROJECTS",
+    "headline": "See the discipline in action.",
+    "lede": "Every signature engagement below follows the same 10-stage discipline — from feasibility through handover — with evidence at every step."
   },
   "items": [
     {
-      "code": "TYPE 01",
-      "sector": "Residential apartments — mid-rise",
-      "location": "NSW",
-      "engagement": "Client-side Project Management",
-      "problem": "A developer needs a project manager to run a mid-rise apartment build on their behalf from tender award through practical completion — sitting on the owner's side of the table.",
-      "intervention": "End-to-end PM engagement: consultant coordination, principal reporting, cost and programme tracking, monthly board packs, and contract administration under AS 4902.",
-      "outcome_label": "Owner-representative role from award to handover."
+      "code": "05 · 07",
+      "sector": "// COMMERCIAL · INDUSTRIAL",
+      "title": "Caltex Refinery & Terminal Works",
+      "location": "Kurnell, NSW",
+      "value": "$60M",
+      "contract": "Contract Cost Plus · Industrial",
+      "brief": "Independent commercial oversight across restricted hazardous zones.",
+      "outcomes": [
+        "WHS-first program integration with plant operations.",
+        "Handover accepted first-pass against Commonwealth EPA obligations."
+      ]
     },
     {
       "code": "TYPE 02",
-      "sector": "Health — day-surgery precinct",
+      "sector": "// HEALTH",
+      "title": "Day-Surgery Precinct",
       "location": "NSW",
-      "engagement": "Contract Advisory",
-      "problem": "A principal takes on a health-sector build under AS 4000 and needs contract advisory support — RFIs, variations, and EOT assessments — during the critical delivery phase.",
-      "intervention": "Contract administration during construction: RFI register, variation register, monthly progress claims and certifications, EOT windows analysis where claims are served.",
-      "outcome_label": "Contract paperwork run to close-out."
+      "value": "Confidential",
+      "contract": "AS 4000 · Health",
+      "brief": "Contract administration and superintendent support during a critical delivery phase.",
+      "outcomes": [
+        "RFI, variation and EOT registers run to close-out.",
+        "Monthly progress claims certified inside contract windows."
+      ]
     },
     {
       "code": "TYPE 03",
-      "sector": "Education — school masterplan",
+      "sector": "// EDUCATION",
+      "title": "School Masterplan",
       "location": "NSW",
-      "engagement": "Feasibility",
-      "problem": "A school board is weighing a stage-two build and needs an independent read on cost, programme, and risk before authorising tender.",
-      "intervention": "Feasibility study to elemental cost-plan level. Benchmarked against comparable completed projects; risk register issued alongside the cost plan.",
-      "outcome_label": "Board-ready feasibility with cost plan and risk register."
+      "value": "Confidential",
+      "contract": "Feasibility",
+      "brief": "Board-ready read on cost, programme and risk before authorising tender.",
+      "outcomes": [
+        "Elemental cost plan benchmarked against comparable projects.",
+        "Risk register issued alongside the cost plan and presented to the board."
+      ]
     },
     {
       "code": "TYPE 04",
-      "sector": "Industrial — logistics estate",
+      "sector": "// INDUSTRIAL",
+      "title": "Logistics Estate",
       "location": "NSW",
-      "engagement": "Estimating",
-      "problem": "An owner needs an independent trade-level estimate to test a builder's lump-sum price on a multi-tenancy industrial build before award.",
-      "intervention": "Trade-level estimate with rate build-ups; benchmarking against comparable completed projects; written commentary on the drivers of the difference to the tendered price.",
-      "outcome_label": "Independent cost check ahead of award."
-    },
-    {
-      "code": "TYPE 05",
-      "sector": "Public infrastructure — precinct works",
-      "location": "NSW",
-      "engagement": "Compliance",
-      "problem": "A principal on a precinct-scale infrastructure project needs certainty that construction matches the approved design and satisfies each authority condition before handover.",
-      "intervention": "Design-stage compliance review, construction-stage audits against NCC and planning conditions, and a close-out schedule of non-conformances tracked to resolution.",
-      "outcome_label": "Documented compliance close-out against each authority condition."
-    },
-    {
-      "code": "TYPE 06",
-      "sector": "Retail / hospitality — fit-out",
-      "location": "NSW",
-      "engagement": "Risk Management",
-      "problem": "An owner wants an independent set of eyes on quality and risk during a retail fit-out — separate from the builder's own QA — with monthly audits and a live risk register.",
-      "intervention": "Project risk register established and maintained live; ITP audits on defined milestones; non-conformance tracking with recommended actions.",
-      "outcome_label": "Live risk register and independent quality audits through construction."
+      "value": "Confidential",
+      "contract": "Estimating & Superintendent",
+      "brief": "Independent cost check ahead of award; superintendent role through construction.",
+      "outcomes": [
+        "Trade-level estimate closed the gap to the tendered price.",
+        "Monthly certificates and formal determinations delivered on-schedule."
+      ]
     }
   ]
 }

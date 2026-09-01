@@ -1,32 +1,31 @@
 {
   "meta": {
-    "title": "Contact — Australia Construction Consultants & Associates",
-    "description": "Start an enquiry with ACCA. Direct phone and mobile for Antonio Hernandez, Managing Director."
+    "title": "Engage ACC — ACC & Associates",
+    "description": "Decision-ready advice starts with a conversation. Tell ACC about your project. We reply within one business day with a scoping outline."
   },
   "intro": {
-    "eyebrow": "04 / ENQUIRY",
-    "headline": "A live project you'd like a second read on?",
-    "lede": "Tell us the shape of it. We reply within one business day. If we are not the right firm we say so and — where we can — point you to someone who is."
+    "eyebrow": "// 07 / ENGAGE",
+    "headline": "Decision-ready advice starts with a conversation.",
+    "lede": "Tell us about your project. We will respond within one business day with a scoping outline."
   },
+  "channels": [
+    { "kind": "email",   "label": "E", "value": "info@accassociate.com.au",       "href": "mailto:info@accassociate.com.au" },
+    { "kind": "phone",   "label": "P", "value": "02 7921 5670",                    "href": "tel:+61279215670" },
+    { "kind": "web",     "label": "W", "value": "www.accassociate.com.au",        "href": "https://www.accassociate.com.au" },
+    { "kind": "address", "label": "A", "value": "13/1367 George St, PO Box 46, Liverpool NSW 2170", "href": "https://maps.google.com/?q=13%2F1367+George+St+Liverpool+NSW+2170" }
+  ],
   "form": {
-    "project_types": [
-      "Residential",
-      "Commercial",
-      "Health",
-      "Education",
-      "Aged care",
-      "Industrial",
-      "Government infrastructure",
+    "service_options": [
+      "Development & Project Feasibility",
+      "Construction Cost & Pricing Review",
+      "Project Planning & PERT / Program Management",
+      "Construction Management & Site Coordination",
+      "Contract Administration & Commercial Support",
+      "Tendering & Procurement Advisory",
+      "Risk, Compliance & Project Controls",
+      "Defects, Completion & Handover",
+      "Independent Construction Advisory",
       "Other"
-    ],
-    "stages": [
-      "Feasibility / pre-DA",
-      "Design development",
-      "Tender / procurement",
-      "Under construction",
-      "Practical completion / DLP",
-      "Dispute / claim underway",
-      "Litigation filed"
     ]
   }
 }

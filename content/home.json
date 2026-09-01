@@ -1,61 +1,140 @@
 {
   "meta": {
     "title": "Australia Construction Consultants · The Tool for Success",
-    "description": "Australia Construction Consultants & Associates — Senior-level construction consulting. The Tool for Success. Contract advisory, risk management, feasibility, estimating and compliance."
+    "description": "Australia Construction Consultants & Associates — senior-level construction analysis. Software-agnostic. Contract-aware. Decision-ready. Sydney, NSW."
   },
   "hero": {
-    "eyebrow": "AUSTRALIA CONSTRUCTION CONSULTANTS & ASSOCIATES · EST. 1984",
-    "headline": [
-      "Senior-level",
-      "construction",
-      "consulting.",
-      "The Tool",
-      "for Success."
+    "eyebrow": "// AUSTRALIA CONSTRUCTION CONSULTANTS · THE TOOL FOR SUCCESS",
+    "headline_parts": [
+      { "text": "Software is the tool.", "tone": "ink" },
+      { "text": "The contract",          "tone": "mute" },
+      { "text": " is the framework.",    "tone": "ink" },
+      { "text": "Evidence",              "tone": "brass" },
+      { "text": " establishes what happened.", "tone": "ink" }
     ],
-    "lede": "ACCA acts client-side for developers, owners, and principals across Australia. Contract advisory, risk management, feasibility, estimating, and compliance — from pre-commitment through practical completion.",
-    "cta": { "label": "Start an enquiry", "href": "/contact" },
-    "programme": {
-      "code": "SAMPLE · PROGRAMME RECOVERY · ILLUSTRATIVE",
-      "phases": [
-        { "id": "strategy",  "label": "STRATEGY",  "start": 0,  "planned_end": 12, "actual_end": 12 },
-        { "id": "planning",  "label": "PLANNING",  "start": 12, "planned_end": 34, "actual_end": 36 },
-        { "id": "delivery",  "label": "DELIVERY",  "start": 36, "planned_end": 88, "actual_end": 100, "eot_days": 47 }
-      ],
-      "engagement": { "at": 72, "label": "ACCA engaged" },
-      "ticks": [
-        { "at": 0,   "label": "Mo. 1" },
-        { "at": 25,  "label": "Mo. 6" },
-        { "at": 50,  "label": "Mo. 12" },
-        { "at": 75,  "label": "Mo. 18" },
-        { "at": 100, "label": "Mo. 24" }
-      ]
-    }
-  },
-  "services_intro": "Six services. All client-side.",
-  "capability": {
-    "heading": "Sectors we work across",
-    "sectors": [
-      "Residential",
-      "Commercial",
-      "Health",
-      "Education",
-      "Aged care",
-      "Industrial",
-      "Government infrastructure"
-    ],
-    "positioning": [
-      "Independent — we act for the owner, not the builder.",
-      "Senior-level advisors on every engagement — no juniors run the file.",
-      "Fixed-scope engagements wherever the shape of the work allows."
+    "lede": "ACC — Australia Construction Consultants & Associates — delivers senior-level construction analysis using the appropriate contractual, legislative, commercial and digital tools for each client. Software-agnostic. Contract-aware. Decision-ready.",
+    "ctas": [
+      { "label": "Engage ACC",    "href": "/#engage",  "kind": "primary" },
+      { "label": "Client Portal", "href": "/portal",   "kind": "outline" }
     ]
   },
-  "engage": {
-    "eyebrow": "How we engage",
-    "steps": [
-      { "n": "01", "title": "Brief",                "detail": "A short call, no charge. Tell us the project, the contract, and what you need." },
-      { "n": "02", "title": "Scope and fee",        "detail": "A one-page scope with named deliverables, a fee, and a date. Signed both ways." },
-      { "n": "03", "title": "Site and documents",   "detail": "Site walk where relevant. Documents review — programme, contract, RFIs, variations, correspondence." },
-      { "n": "04", "title": "Report or engagement", "detail": "A written report you can hand to a bank, a builder, or your board. Or an ongoing contract-admin, superintendent, or PM role." }
+  "command_centre": {
+    "eyebrow": "// THE CONSTRUCTION BUSINESS",
+    "title": "Command Centre™",
+    "lede": "Real-time visibility. Smarter decisions.",
+    "cta": { "label": "Access Command Centre", "href": "/portal" },
+    "kpis": [
+      { "label": "Projects",         "value": "3" },
+      { "label": "Contract Value",   "value": "$150M" },
+      { "label": "Cost to Date",     "value": "$0.0" },
+      { "label": "Forecast Margin",  "value": "100%", "delta": "up" }
     ]
+  },
+  "methodology": {
+    "mark": "// 01 / METHODOLOGY",
+    "headline_parts": [
+      { "text": "Client-specific.",  "tone": "ink"  },
+      { "text": "Project-specific.", "tone": "mute" }
+    ],
+    "lede": "Every engagement is evaluated on its unique contract, legislation, commercial conditions, risks and client objectives. We reject one-size-fits-all methodology.",
+    "callout": "ACC does not sell software; we deliver professional construction analysis using the appropriate contractual, legislative, commercial and digital tools for each individual client and project.",
+    "pillars": [
+      { "n": "01", "name": "Contract" },
+      { "n": "02", "name": "Legislation" },
+      { "n": "03", "name": "Commercial" },
+      { "n": "04", "name": "Evidence" }
+    ]
+  },
+  "capabilities_intro": {
+    "mark": "// 02 / CAPABILITIES",
+    "headline": "Nine service lines. One accountable practice.",
+    "lede": "From feasibility through completion, dispute and independent review — commercially aware, evidence-controlled, aligned with NSW obligations."
+  },
+  "capability_pack": {
+    "mark": "// CAPABILITY PACK",
+    "title": "Take our full capability statement with you.",
+    "lede": "A branded PDF of all nine service lines, our 10-stage delivery process and PERT methodology — ready to share internally or forward to your board.",
+    "cta": { "label": "Download PDF", "href": "/capability-statement.pdf" }
+  },
+  "timeline": {
+    "mark": "// 03 / PROJECT TIMELINE",
+    "headline": "Step by step. On time. On budget. Safely.",
+    "lede": "Ten stages, four bands, one accountability chain — the same disciplined process ACC runs on every engagement, from a $2M residential renovation through to a mixed-use development.",
+    "bands": ["Plan", "Prepare", "Execute", "Deliver & Close"],
+    "stages": [
+      { "n": "01", "band": "Plan",             "title": "Project Initiation",            "duration": "1–2 weeks",     "bullets": ["Define project objectives","Identify stakeholders","Initial site review"] },
+      { "n": "02", "band": "Plan",             "title": "Feasibility & Planning",        "duration": "2–4 weeks",     "bullets": ["Feasibility study","Budget estimate","Project plan & schedule"] },
+      { "n": "03", "band": "Prepare",          "title": "Design & Documentation",        "duration": "4–8 weeks",     "bullets": ["Concept design","Detailed design","Documentation"] },
+      { "n": "04", "band": "Prepare",          "title": "Approvals & Permits",           "duration": "2–6 weeks (parallel)", "bullets": ["Council approvals","Statutory permits","Compliance checks"] },
+      { "n": "05", "band": "Prepare",          "title": "Procurement & Contracting",     "duration": "2–4 weeks",     "bullets": ["Tendering","Contractor selection","Contract execution"] },
+      { "n": "06", "band": "Execute",          "title": "Pre-Construction & Mobilisation","duration": "2–3 weeks",     "bullets": ["Construction planning","Site setup","Mobilisation"] },
+      { "n": "07", "band": "Execute",          "title": "Construction Execution",        "duration": "Varies (weeks / months)", "bullets": ["Build works","Site coordination","Progress tracking"] },
+      { "n": "08", "band": "Execute",          "title": "Quality Control & Inspections", "duration": "Ongoing",           "bullets": ["Inspections & testing","Quality assurance","Non-conformance"] },
+      { "n": "09", "band": "Deliver & Close",  "title": "Commissioning & Handover",      "duration": "2–4 weeks",     "bullets": ["Testing & commissioning","Training","Handover"] },
+      { "n": "10", "band": "Deliver & Close",  "title": "Post Project & Close Out",      "duration": "2–4 weeks",     "bullets": ["Defects liability","Close-out documents","Lessons learned"] }
+    ],
+    "pert": {
+      "mark": "// PERT METHODOLOGY",
+      "headline": "Every stage duration is stress-tested with PERT.",
+      "body": "PERT (Program Evaluation & Review Technique) models each activity with three estimates — optimistic, most likely and pessimistic — to produce an expected duration and variance. It lets us plan around realistic uncertainty in design, approvals, procurement, trades, commissioning and handover.",
+      "formula": "E = (O + 4M + P) ÷ 6"
+    },
+    "promises": [
+      { "title": "On Time",        "detail": "We respect your time and deadlines." },
+      { "title": "On Budget",      "detail": "We manage costs effectively." },
+      { "title": "Quality Assured","detail": "We build it right the first time." },
+      { "title": "Safety First",   "detail": "We protect people and the environment." }
+    ]
+  },
+  "networks": {
+    "mark": "// JOIN OUR NETWORK",
+    "headline": "Two ways to work with ACC.",
+    "lede": "Whether you're a consultant firm looking for referrals and JV opportunities, or a trade subcontractor chasing live tenders — the ACC network puts you in front of active Australian construction projects.",
+    "cards": [
+      {
+        "eyebrow": "// CONSULTANTS & FIRMS",
+        "title": "Partner Network",
+        "price": "A$700",
+        "period": "one-off",
+        "bullets": [
+          "Approved-partner badge + digital certificate",
+          "Public listing on the ACC partners directory",
+          "AS4000-1997 engagement contract executed digitally",
+          "Live D&C Leads intel + AI match alerts"
+        ],
+        "quote": {
+          "text": "Every partner we onboard signs a defensible AS4000 engagement and earns their listing — no drive-by referrals.",
+          "attribution": "ACC & Associates · Partner Governance"
+        },
+        "ctas": [
+          { "label": "Become a Partner", "href": "/#engage", "kind": "primary" },
+          { "label": "View Partners",    "href": "/#engage", "kind": "ghost" }
+        ]
+      },
+      {
+        "eyebrow": "// TRADES & SUPPLIERS",
+        "title": "Subcontractor Network",
+        "price": "A$200",
+        "period": "every 3 months",
+        "bullets": [
+          "Live tenders across every active ACC project",
+          "Download-ready SWMS / JSA / ITP templates",
+          "Public trade profile shown to ACC at tender time",
+          "Weekly toolbox talks + safety alerts feed"
+        ],
+        "quote": {
+          "text": "Members get the same live AusTender intel we consume in-house, plus AI alerts the moment a package matches their trade.",
+          "attribution": "ACC & Associates · Estimating Practice"
+        },
+        "ctas": [
+          { "label": "Join for A$200", "href": "/#engage", "kind": "primary" }
+        ]
+      }
+    ]
+  },
+  "engage_intro": {
+    "mark": "// 07 / ENGAGE",
+    "headline": "Decision-ready advice starts with a conversation.",
+    "lede": "Tell us about your project. We will respond within one business day with a scoping outline."
   }
 }

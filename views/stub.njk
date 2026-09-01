@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block content %}
+<section class="section section--stub">
+  <div class="section__inner">
+    <div class="section__mark">{{ stub.eyebrow }}</div>
+    <h1 class="section__h">{{ stub.title }}</h1>
+    <p class="section__lede">{{ stub.body }}</p>
+    <a class="btn btn--primary" href="{{ stub.cta.href }}">{{ stub.cta.label }} <span aria-hidden="true">→</span></a>
+  </div>
+</section>
+{% endblock %}

@@ -1,83 +1,300 @@
 {% extends "layout.njk" %}
-{% from "macros/programme.njk" import programme %}
 
 {% block content %}
 
+{# ============================ HERO ============================ #}
 <section class="hero">
-  <div class="hero__grid">
+  <div class="hero__inner">
     <div class="hero__eyebrow">{{ home.hero.eyebrow }}</div>
     <h1 class="hero__headline">
-      {% for line in home.hero.headline %}
-        <span class="hero__line">{{ line }}</span>
-      {% endfor %}
+      {% for part in home.hero.headline_parts %}<span class="hero__word hero__word--{{ part.tone }}">{{ part.text }}</span>{% endfor %}
     </h1>
     <p class="hero__lede">{{ home.hero.lede }}</p>
-    <div class="hero__cta">
-      <a class="btn btn--primary" href="{{ home.hero.cta.href }}">
-        {{ home.hero.cta.label }} <span aria-hidden="true">→</span>
-      </a>
+    <div class="hero__ctas">
+      {% for c in home.hero.ctas %}
+        <a class="btn btn--{{ c.kind }}" href="{{ c.href }}">{{ c.label }} <span aria-hidden="true">→</span></a>
+      {% endfor %}
     </div>
-    <div class="hero__prog">
-      {{ programme(home.hero.programme) }}
-    </div>
-  </div>
-</section>
-
-<section class="section section--services-overview">
-  <div class="section__mark">01 / SERVICES</div>
-  <h2 class="section__h">{{ home.services_intro }}</h2>
-  <ul class="svc-list">
-    {% for s in services.items %}
-      <li class="svc-row">
-        <a class="svc-row__inner" href="/services#s{{ loop.index }}">
-          <span class="svc-row__mark">{{ s.mark }}</span>
-          <span class="svc-row__name">{{ s.name }}</span>
-          <span class="svc-row__trigger">{{ s.trigger }}</span>
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-  <a class="section__more" href="/services">All six services in detail →</a>
-</section>
-
-<section class="section section--capability">
-  <div class="section__mark">02 / CAPABILITY</div>
-  <h2 class="section__h">{{ home.capability.heading }}</h2>
-  <div class="sectors">
-    <div class="sectors__label">SECTORS</div>
-    <div class="sectors__list">
-      {% for s in home.capability.sectors %}<span class="sectors__item">{{ s }}</span>{% endfor %}
-    </div>
-  </div>
-  <ul class="pos-list">
-    {% for p in home.capability.positioning %}
-      <li class="pos-item">
-        <span class="pos-item__mark">§</span>
-        <span class="pos-item__text">{{ p }}</span>
-      </li>
-    {% endfor %}
-  </ul>
-</section>
-
-<section class="section section--engage">
-  <div class="section__mark">03 / {{ home.engage.eyebrow | upper }}</div>
-  <ol class="engage">
-    {% for step in home.engage.steps %}
-      <li class="engage__step">
-        <div class="engage__n">{{ step.n }}</div>
-        <div class="engage__body">
-          <h3 class="engage__h">{{ step.title }}</h3>
-          <p class="engage__detail">{{ step.detail }}</p>
+    <div class="hero__stats">
+      {% for s in site.stats %}
+        <div class="stat">
+          <div class="stat__value">{{ s.value }}</div>
+          <div class="stat__label">{{ s.label }}</div>
         </div>
-      </li>
-    {% endfor %}
-  </ol>
+      {% endfor %}
+    </div>
+  </div>
 </section>
 
-<section class="section section--cta-final">
-  <div class="section__mark">04 / ENQUIRY</div>
-  <h2 class="cta-final__h">One brief call. No obligation. One business day to a reply.</h2>
-  <a class="btn btn--primary btn--large" href="/contact">Start an enquiry <span aria-hidden="true">→</span></a>
+{# ============================ BRAND BAND ============================ #}
+<section class="brand-band">
+  <div class="brand-band__inner">
+    <div class="brand-band__mark">
+      <span class="brand-band__badge">ACC</span>
+      <span class="brand-band__name">&amp; ASSOCIATES</span>
+    </div>
+    <div class="brand-band__sub">CONSTRUCTION CONSULTING FIRM</div>
+    <div class="brand-band__pipe">
+      <span>STRATEGY</span><span class="pipe-dot">•</span>
+      <span>PLANNING</span><span class="pipe-dot">•</span>
+      <span>DELIVERY</span>
+    </div>
+    <ul class="pill-grid">
+      {% for p in site.capability_pills %}
+        <li class="pill">{{ p }}</li>
+      {% endfor %}
+    </ul>
+    <div class="brand-band__motto">{{ site.firm.motto }}</div>
+    <div class="brand-band__region">{{ site.office.region | replace('·', '|') | upper }}</div>
+  </div>
+</section>
+
+{# ============================ COMMAND CENTRE ============================ #}
+<section class="section section--command" id="command-centre">
+  <div class="section__inner">
+    <div class="section__mark">{{ home.command_centre.eyebrow }}</div>
+    <h2 class="section__h">{{ home.command_centre.title }}</h2>
+    <p class="section__lede">{{ home.command_centre.lede }}</p>
+    <a class="btn btn--outline" href="{{ home.command_centre.cta.href }}">{{ home.command_centre.cta.label }}</a>
+    <div class="kpi-grid">
+      {% for k in home.command_centre.kpis %}
+        <div class="kpi">
+          <div class="kpi__label">{{ k.label | upper }}</div>
+          <div class="kpi__value">{{ k.value }}{% if k.delta == 'up' %} <span class="kpi__delta">↑</span>{% endif %}</div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{# ============================ METHODOLOGY ============================ #}
+<section class="section section--methodology" id="methodology">
+  <div class="section__inner">
+    <div class="section__mark">{{ home.methodology.mark }}</div>
+    <h2 class="section__h">
+      {% for p in home.methodology.headline_parts %}<span class="section__h-word section__h-word--{{ p.tone }}">{{ p.text }}</span>{% endfor %}
+    </h2>
+    <p class="section__lede">{{ home.methodology.lede }}</p>
+    <blockquote class="callout">{{ home.methodology.callout }}</blockquote>
+    <div class="pillar-grid">
+      {% for p in home.methodology.pillars %}
+        <div class="pillar">
+          <div class="pillar__n">PILLAR {{ p.n }}</div>
+          <div class="pillar__name">{{ p.name }}</div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{# ============================ CAPABILITIES ============================ #}
+<section class="section section--capabilities" id="capabilities">
+  <div class="section__inner">
+    <div class="section__mark">{{ home.capabilities_intro.mark }}</div>
+    <h2 class="section__h">{{ home.capabilities_intro.headline }}</h2>
+    <p class="section__lede">{{ home.capabilities_intro.lede }}</p>
+    <div class="cap-grid">
+      {% for s in services.items %}
+        <article class="cap-card">
+          <div class="cap-card__head">
+            <div class="cap-card__icon" aria-hidden="true">{{ s.mark }}</div>
+            <div class="cap-card__mark">{{ s.mark }}</div>
+          </div>
+          <h3 class="cap-card__h">{{ s.name }}</h3>
+          <p class="cap-card__body">{{ s.what }}</p>
+        </article>
+      {% endfor %}
+    </div>
+
+    <div class="cap-pack">
+      <div class="cap-pack__mark">{{ home.capability_pack.mark }}</div>
+      <div class="cap-pack__h">{{ home.capability_pack.title }}</div>
+      <p class="cap-pack__lede">{{ home.capability_pack.lede }}</p>
+      <a class="btn btn--outline" href="{{ home.capability_pack.cta.href }}">{{ home.capability_pack.cta.label }}</a>
+    </div>
+  </div>
+</section>
+
+{# ============================ TIMELINE ============================ #}
+<section class="section section--timeline" id="timeline">
+  <div class="section__inner">
+    <div class="section__mark">{{ home.timeline.mark }}</div>
+    <h2 class="section__h">{{ home.timeline.headline }}</h2>
+    <p class="section__lede">{{ home.timeline.lede }}</p>
+    <div class="bands">
+      {% for b in home.timeline.bands %}<span class="band">{{ b | upper }}</span>{% endfor %}
+    </div>
+    <div class="stage-grid">
+      {% for st in home.timeline.stages %}
+        <article class="stage stage--{{ st.band | lower | replace(' ', '') | replace('&', '') }}">
+          <div class="stage__meta">
+            <span class="stage__band">{{ st.band | upper }}</span>
+            <span class="stage__n">{{ st.n }}</span>
+          </div>
+          <h3 class="stage__h">{{ st.title }}</h3>
+          <div class="stage__dur">{{ st.duration | upper }}</div>
+          <ul class="stage__bullets">
+            {% for b in st.bullets %}<li>{{ b }}</li>{% endfor %}
+          </ul>
+        </article>
+      {% endfor %}
+    </div>
+
+    <div class="pert">
+      <div class="pert__mark">{{ home.timeline.pert.mark }}</div>
+      <h3 class="pert__h">{{ home.timeline.pert.headline }}</h3>
+      <p class="pert__body">{{ home.timeline.pert.body }}</p>
+      <div class="pert__formula">{{ home.timeline.pert.formula }}</div>
+    </div>
+
+    <div class="promise-grid">
+      {% for p in home.timeline.promises %}
+        <div class="promise">
+          <h4 class="promise__h">{{ p.title }}</h4>
+          <p class="promise__detail">{{ p.detail }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{# ============================ TEAM ============================ #}
+<section class="section section--team" id="team">
+  <div class="section__inner">
+    <div class="section__mark">{{ about.intro.eyebrow }}</div>
+    <h2 class="section__h">{{ about.intro.headline }}</h2>
+    <p class="section__lede">{{ about.intro.lede }}</p>
+
+    {% for g in about.groups %}
+      <div class="team-group">
+        <div class="team-group__mark">{{ g.mark }}</div>
+        <div class="team-grid">
+          {% for person in g.people %}
+            <article class="person">
+              <div class="person__avatar" aria-hidden="true">{{ person.initials }}</div>
+              <h3 class="person__name">{{ person.name }}</h3>
+              <div class="person__role">{{ person.role | upper }}</div>
+              <p class="person__bio">{{ person.bio }}</p>
+            </article>
+          {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+{# ============================ SIGNATURE PROJECTS ============================ #}
+<section class="section section--projects" id="projects">
+  <div class="section__inner">
+    <div class="section__mark">{{ projects.intro.eyebrow }}</div>
+    <h2 class="section__h">{{ projects.intro.headline }}</h2>
+    <p class="section__lede">{{ projects.intro.lede }}</p>
+    <div class="proj-grid">
+      {% for p in projects.items %}
+        <article class="proj">
+          <div class="proj__meta">
+            <span class="proj__sector">{{ p.sector }}</span>
+            <span class="proj__code">{{ p.code }}</span>
+          </div>
+          <h3 class="proj__h">{{ p.title }}</h3>
+          <div class="proj__loc"><span class="proj__pin" aria-hidden="true">◉</span> {{ p.location }} &middot; <strong>{{ p.value }}</strong> &middot; {{ p.contract }}</div>
+          <p class="proj__brief">{{ p.brief }}</p>
+          <ul class="proj__outcomes">
+            {% for o in p.outcomes %}<li>{{ o }}</li>{% endfor %}
+          </ul>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{# ============================ NETWORKS ============================ #}
+<section class="section section--networks" id="networks">
+  <div class="section__inner">
+    <div class="section__mark">{{ home.networks.mark }}</div>
+    <h2 class="section__h">{{ home.networks.headline }}</h2>
+    <p class="section__lede">{{ home.networks.lede }}</p>
+    <div class="net-grid">
+      {% for c in home.networks.cards %}
+        <article class="net">
+          <div class="net__eyebrow">{{ c.eyebrow }}</div>
+          <h3 class="net__h">{{ c.title }}</h3>
+          <div class="net__price"><span class="net__price-value">{{ c.price }}</span> <span class="net__price-period">{{ c.period }}</span></div>
+          <ul class="net__bullets">
+            {% for b in c.bullets %}<li>{{ b }}</li>{% endfor %}
+          </ul>
+          <blockquote class="net__quote">
+            <span class="net__quote-mark">// ENDORSED</span>
+            <p>&ldquo;{{ c.quote.text }}&rdquo;</p>
+            <cite>— {{ c.quote.attribution }}</cite>
+          </blockquote>
+          <div class="net__ctas">
+            {% for a in c.ctas %}
+              <a class="btn btn--{{ a.kind }}" href="{{ a.href }}">{{ a.label }}</a>
+            {% endfor %}
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{# ============================ ENGAGE / CONTACT ============================ #}
+<section class="section section--engage" id="engage">
+  <div class="section__inner">
+    <div class="section__mark">{{ home.engage_intro.mark }}</div>
+    <h2 class="section__h">{{ home.engage_intro.headline }}</h2>
+    <p class="section__lede">{{ home.engage_intro.lede }}</p>
+
+    <ul class="channels">
+      {% for ch in contact.channels %}
+        <li class="channel">
+          <span class="channel__k">{{ ch.label }}</span>
+          <a class="channel__v" href="{{ ch.href }}">{{ ch.value }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+
+    {% if errors %}
+      <div class="form-errors" role="alert">
+        <strong>Please fix:</strong>
+        <ul>{% for e in errors %}<li>{{ e }}</li>{% endfor %}</ul>
+      </div>
+    {% endif %}
+
+    <form class="enquiry" method="POST" action="/enquiry" novalidate>
+      <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+      <div class="enquiry__row">
+        <label class="field">
+          <span class="field__k">NAME</span>
+          <input type="text" name="name" required value="{{ values.name if values else '' }}">
+        </label>
+        <label class="field">
+          <span class="field__k">EMAIL</span>
+          <input type="email" name="email" required value="{{ values.email if values else '' }}">
+        </label>
+      </div>
+      <div class="enquiry__row">
+        <label class="field">
+          <span class="field__k">COMPANY</span>
+          <input type="text" name="company" value="{{ values.company if values else '' }}">
+        </label>
+        <label class="field">
+          <span class="field__k">SERVICE INTEREST</span>
+          <input type="text" name="project_type" list="service_options" placeholder="e.g. Risk Management" required value="{{ values.project_type if values else '' }}">
+          <datalist id="service_options">
+            {% for s in contact.form.service_options %}<option value="{{ s }}">{% endfor %}
+          </datalist>
+        </label>
+      </div>
+      <input type="hidden" name="stage" value="—">
+      <label class="field field--wide">
+        <span class="field__k">PROJECT BRIEF</span>
+        <textarea name="message" rows="6" required minlength="20">{{ values.message if values else '' }}</textarea>
+      </label>
+      <button class="btn btn--primary btn--large" type="submit">SUBMIT ENQUIRY <span aria-hidden="true">→</span></button>
+    </form>
+  </div>
 </section>
 
 {% endblock %}

@@ -1,27 +1,53 @@
 {
   "firm": {
-    "name": "Australia Construction Consultants & Associates",
+    "name": "ACC & Associates",
     "long_name": "Australia Construction Consultants & Associates Pty Ltd",
-    "descriptor": "Senior-level construction consulting",
+    "descriptor": "Construction Consulting Firm",
     "tagline": "The Tool for Success",
+    "motto": "Building Knowledge. Managing Risk. Delivering Results.™",
     "abn": "15 068 411 0",
     "license": "248808C",
     "founded": 1984
   },
   "nav": [
-    { "label": "Services", "href": "/services", "mark": "01" },
-    { "label": "Projects", "href": "/projects", "mark": "02" },
-    { "label": "About",    "href": "/about",    "mark": "03" },
-    { "label": "Contact",  "href": "/contact",  "mark": "04" }
+    { "label": "Methodology",  "href": "/#methodology",  "mark": "01" },
+    { "label": "Capabilities", "href": "/#capabilities", "mark": "02" },
+    { "label": "Timeline",     "href": "/#timeline",     "mark": "03" },
+    { "label": "Team",         "href": "/#team",         "mark": "05" },
+    { "label": "Projects",     "href": "/#projects",     "mark": "06" },
+    { "label": "Engage",       "href": "/#engage",       "mark": "07" }
   ],
+  "nav_actions": [
+    { "label": "Sign in",       "href": "/signin",  "kind": "ghost" },
+    { "label": "Client Portal", "href": "/portal",  "kind": "outline" }
+  ],
+  "office": {
+    "region": "Sydney · NSW · Australia",
+    "address": "13/1367 George St, PO Box 46, Liverpool NSW 2170"
+  },
   "principal": {
     "name": "Antonio Hernandez",
-    "role": "Managing Director",
-    "mobile":       "0415 506 867",
-    "mobile_href":  "tel:+61415506867",
-    "office":       "(02) 7921 5670",
-    "office_href":  "tel:+61279215670",
-    "email":        "antonio@acca.com.au",
-    "email_href":   "mailto:antonio@acca.com.au"
-  }
+    "role": "Founder & CEO",
+    "mobile":      "0415 506 867",
+    "mobile_href": "tel:+61415506867",
+    "office":      "02 7921 5670",
+    "office_href": "tel:+61279215670",
+    "email":       "info@accassociate.com.au",
+    "email_href":  "mailto:info@accassociate.com.au",
+    "web":         "www.accassociate.com.au",
+    "web_href":    "https://www.accassociate.com.au"
+  },
+  "stats": [
+    { "value": "25+",     "label": "Years Senior Leadership" },
+    { "value": "$400M+",  "label": "Delivered Project Value" },
+    { "value": "120+",    "label": "Projects Advised" }
+  ],
+  "capability_pills": [
+    "Project Management",
+    "Commercial Advisory",
+    "Design & Construct Advice",
+    "Risk & Contract Management",
+    "Feasibility & Estimating",
+    "Compliance & Quality"
+  ]
 }

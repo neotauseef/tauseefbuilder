@@ -1,30 +1,92 @@
 {
   "meta": {
-    "title": "About — Australia Construction Consultants & Associates",
-    "description": "ACCA is an Australian construction consultancy — senior-level advisors, client-side only. Managing Director: Antonio Hernandez."
+    "title": "Team — ACC & Associates",
+    "description": "Practical experience. Structured controls. An integrated consulting model spanning construction, commercial, planning, risk, quality and digital project management."
   },
   "intro": {
-    "eyebrow": "03 / ABOUT",
-    "headline": "Independent representation for the party paying the fee."
+    "eyebrow": "// 05 / TEAM",
+    "headline": "Practical experience. Structured controls.",
+    "lede": "An integrated consulting model spanning construction, commercial, planning, risk, quality and digital project management — supporting clients through the full lifecycle."
   },
-  "why": {
-    "heading": "How we work",
-    "body": [
-      "Australia Construction Consultants & Associates is a consultancy established in 1984. We work on the owner's side of the table — for developers, principals, and property owners — never for the builder in the same matter.",
-      "Every engagement is scoped in writing before we start, with named deliverables, a fee, and a date. Where the shape of the job allows it, the fee is fixed.",
-      "For superintendent engagements our duty is to the contract, not the retaining party — and we hold that line in writing."
-    ]
-  },
-  "people": [
+  "groups": [
     {
-      "initials": "AH",
-      "name": "Antonio Hernandez",
-      "role": "Managing Director",
-      "bio": "Antonio leads ACCA's engagements across contract advisory, risk, feasibility, estimating, compliance, and project management. Direct line to every project the firm takes on.",
-      "contacts": [
-        { "label": "Mobile", "value": "0415 506 867",         "href": "tel:+61415506867" },
-        { "label": "Office", "value": "(02) 7921 5670",       "href": "tel:+61279215670" },
-        { "label": "Email",  "value": "antonio@acca.com.au",  "href": "mailto:antonio@acca.com.au" }
+      "mark": "// EXECUTIVE LEADERSHIP",
+      "people": [
+        {
+          "initials": "AH",
+          "name": "Antonio Hernandez",
+          "role": "Founder & CEO · Construction Consultant & Building Practitioner",
+          "bio": "Antonio brings extensive experience across the construction and building sector. His approach combines practical construction knowledge with commercial analysis, contractual awareness, project controls and evidence-based decision-making."
+        },
+        {
+          "initials": "MH",
+          "name": "Mathew Hernandez",
+          "role": "Project Manager",
+          "bio": "Supports project delivery coordination, documentation, stakeholder communication and day-to-day project management activities."
+        },
+        {
+          "initials": "GR",
+          "name": "Geoffrey Reeks",
+          "role": "Administration Manager",
+          "bio": "Administrative coordination, project records, document control, client communication and business administration."
+        },
+        {
+          "initials": "TB",
+          "name": "Tony Brown",
+          "role": "Office & Contract Administrator",
+          "bio": "Contract administration, project correspondence, document management, commercial records and coordination of contractual documentation."
+        }
+      ]
+    },
+    {
+      "mark": "// SENIOR MANAGEMENT",
+      "people": [
+        {
+          "initials": "SJ",
+          "name": "Sophia Jankovic",
+          "role": "Finance Manager",
+          "bio": "Financial administration, project financial reporting, budgeting, cost monitoring and financial controls."
+        },
+        {
+          "initials": "JB",
+          "name": "Janelle Blacksmith",
+          "role": "Human Resources Manager",
+          "bio": "People management, organisational support, workforce administration and HR coordination."
+        },
+        {
+          "initials": "HP",
+          "name": "Hector Pascals",
+          "role": "Marketing & Promotions Manager",
+          "bio": "Corporate communications, marketing, client engagement, promotional activities and ACC's market presence."
+        }
+      ]
+    },
+    {
+      "mark": "// INFORMATION TECHNOLOGY & DIGITAL SYSTEMS",
+      "people": [
+        {
+          "initials": "CD",
+          "name": "Claudia Dyson",
+          "role": "IT Manager",
+          "bio": "ACC's digital systems, construction-management technology, information security, software platforms and technology integration."
+        },
+        {
+          "initials": "DK",
+          "name": "Dale Kumar",
+          "role": "IT Support Officer",
+          "bio": "Technical support for staff, project systems, document management and digital project platforms."
+        }
+      ]
+    },
+    {
+      "mark": "// DESIGN & TECHNICAL SERVICES",
+      "people": [
+        {
+          "initials": "NP",
+          "name": "Natasha Parizian",
+          "role": "Senior Architect",
+          "bio": "Architectural coordination, design review, documentation support and technical consultation across applicable projects."
+        }
       ]
     }
   ],
@@ -33,7 +95,7 @@
     "items": [
       { "label": "ABN",           "value": "15 068 411 0" },
       { "label": "License No.",   "value": "248808C" },
-      { "label": "Service area",  "value": "Australia" },
+      { "label": "Service area",  "value": "Sydney · NSW · Australia" },
       { "label": "Established",   "value": "1984" }
     ]
   }
