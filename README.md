@@ -90,3 +90,34 @@ Fonts: **Fraunces** (display serif), **Inter Tight** (body), **JetBrains Mono** 
 
 - No build step. No bundler. No transpiler.
 - Templates are re-read from disk on every request in development for edit-and-refresh; set `NODE_ENV=production` to enable Nunjucks' template cache.
+
+## Deploying on Crazy Domains
+
+Crazy Domains' shared "Web Hosting" plans (cPanel) support Node.js apps via the **Setup Node.js App** tool. VPS / Cloud plans give you full SSH.
+
+### Shared hosting (cPanel — Setup Node.js App)
+
+1. In cPanel, open **Git Version Control** and clone this repo (URL, branch `main`).
+2. Open **Setup Node.js App** → **Create Application**:
+   - Node.js version: `20.x` (or newer)
+   - Application mode: `Production`
+   - Application root: the folder you cloned into
+   - Application URL: your domain (or subdomain)
+   - Application startup file: `server.js`
+   - Environment variables: `NODE_ENV=production` (cPanel sets `PORT` for you; `server.js` already reads `process.env.PORT`)
+3. Click **Run NPM Install**, then **Start App**.
+4. Redeploys: `git pull` in cPanel's Git Version Control, then **Restart** in Setup Node.js App.
+
+### VPS / Cloud hosting (SSH)
+
+```bash
+git clone <this repo> && cd tauseefbuilder
+npm ci --omit=dev
+NODE_ENV=production PORT=3000 node server.js
+```
+
+Put it behind the plan's Apache/Nginx as a reverse proxy to `127.0.0.1:3000`, and run it under a process manager (`pm2 start server.js --name acc` then `pm2 save && pm2 startup`).
+
+### Domain
+
+Point the domain's A record (or the subdomain's) at the hosting server's IP in Crazy Domains **Domain Manager → DNS**. Shared cPanel plans wire this automatically once the domain is added as an addon or primary domain.
